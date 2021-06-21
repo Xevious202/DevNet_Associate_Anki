@@ -12,7 +12,7 @@ This is an Anki deck made to help those in need study for the DevNet Associate E
   - https://github.com/Xevious202/DevNet_Associate_Anki
 - If you'd like to add cards to this deck, please contribute them!
 
-## Exam Blueprint | 3 Cards
+## Exam Blueprint | 67 Cards
 ### 1.0 Software Development & Design 15% | 3 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
@@ -30,11 +30,11 @@ This is an Anki deck made to help those in need study for the DevNet Associate E
   - 1.8.f Merge and handling conflicts
   - 1.8.g diff
 
-### 2.0 Understanding and Using APIs 20% | No Cards Created
+### 2.0 Understanding and Using APIs 20% | 64 Cards Created
 - 2.1 Construct a REST API request to accomplish a task given API documentation
 - 2.2 Describe common usage patterns related to webhooks
 - 2.3 Identify the constraints when consuming APIs
-- 2.4 Explain common HTTP response codes associated with REST APIs
+- 2.4 Explain common HTTP response codes associated with REST APIs | 64 "API", "HTML"
 - 2.5 Troubleshoot a problem given the HTTP response code, request and API documentation
 - 2.6 Identify the parts of an HTTP response (response code, headers, body)
 - 2.7 Utilize common API authentication mechanisms: basic, custom token, and API keys
