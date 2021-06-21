@@ -1,0 +1,1096 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "bdd84f34-d29e-11eb-a216-acde48001122",
+    "deck_config_uuid": "bdd858b2-d29e-11eb-a216-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "bdd858b2-d29e-11eb-a216-acde48001122",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "mid": 1623966180796,
+    "name": "DevNet Associate",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "data-serialization"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 100",
+                "Informational - Continue"
+            ],
+            "guid": "AH}FJK6U;i",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 101",
+                "Informational Switching Protocols"
+            ],
+            "guid": "m4%Di0[:nz",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 102",
+                "Informational - Processing"
+            ],
+            "guid": "fe4h&C$=}R",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 200",
+                "Success - OK"
+            ],
+            "guid": "0O/~W!.DC",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 201",
+                "Success - Created"
+            ],
+            "guid": "O>/Cd?Zcv_",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 202",
+                "Success - Accepted"
+            ],
+            "guid": "dg:l32h!(X",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 203",
+                "Success - Non-authoritative information"
+            ],
+            "guid": "e_!rea*~<m",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 204",
+                "Success - No Content"
+            ],
+            "guid": "j@5YA$Hi6[",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 205",
+                "Success - Reset Content"
+            ],
+            "guid": "w~4jiukms_",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 206",
+                "Success - Partial Content"
+            ],
+            "guid": "cx={kbp;EX",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 207",
+                "Success - Multi-Status"
+            ],
+            "guid": "Lqq?ztYex)",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 208",
+                "Success - Already Reported"
+            ],
+            "guid": "I)C0C1q[~[",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 226",
+                "Success - IM Used"
+            ],
+            "guid": "icru=5%;s1",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 300",
+                "Redirectional - Multiple Choices"
+            ],
+            "guid": "qTzP&yh#0G",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 301",
+                "Redirectional - Moved Permanently"
+            ],
+            "guid": "AChyL6%&B]",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 302",
+                "Redirectional - Found"
+            ],
+            "guid": "x:5z*d3trO",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 303",
+                "Redirectional - See Other"
+            ],
+            "guid": "ivM]w;YGg5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 304",
+                "Redirectional - Not Modified"
+            ],
+            "guid": "Dw3)(;^Q@g",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 305",
+                "Redirectional - Use Proxy"
+            ],
+            "guid": "C};|6,`-9f",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 307",
+                "Redirectional - Temporary Redirect"
+            ],
+            "guid": "M/<prgn{Zb",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 308",
+                "Redirectional - Permanent Redirect"
+            ],
+            "guid": "yxhtIlR8k~",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 400",
+                "Client Error - Bad Request"
+            ],
+            "guid": "s?;)7.N>ON",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 401",
+                "Client Error - Unauthorized"
+            ],
+            "guid": "HaHS`irZ2f",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 402",
+                "Client Error - Payment Required"
+            ],
+            "guid": "H]6D>AgTlQ",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;HTML 402",
+                "Client Error - Payment Required"
+            ],
+            "guid": "y4Hv2cQDj.",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 403",
+                "Client Error - Forbidden"
+            ],
+            "guid": "EuzH:FkXqk",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 404",
+                "Client Error - Not Found"
+            ],
+            "guid": "k3wL$GAom)",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 405",
+                "Client Error - Method Not Allowed"
+            ],
+            "guid": "C8(-TP`lg:",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 406",
+                "Client Error - Not Acceptable"
+            ],
+            "guid": "hr#5FOu012",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 407",
+                "Client Error - Proxy Authentication Required"
+            ],
+            "guid": "q|sd<v^-U`",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 408",
+                "Client Error - Request Timeout"
+            ],
+            "guid": "nx)-8pl*%X",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 409",
+                "Client Error - Conflict"
+            ],
+            "guid": "c5C=#CTYHd",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 410",
+                "Client Error - Gone"
+            ],
+            "guid": "v(U#(55/Ac",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 411",
+                "Client Error - Length Required"
+            ],
+            "guid": "kRd(Lz2:h.",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 412",
+                "Client Error - Precondition Failed"
+            ],
+            "guid": "DFcI3]F-U,",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 413",
+                "Client Error - Payload Too Large"
+            ],
+            "guid": "g@TdXIk3Y6",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 414",
+                "Client Error - Request-URI Too Long"
+            ],
+            "guid": "p|[2p-/ok?",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 415",
+                "Client Error - Unsupported Media Type"
+            ],
+            "guid": "M/cLh<5eR0",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 416",
+                "Client Error - Requested Range Not Satisfiable"
+            ],
+            "guid": "D$ZPr9u%uS",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 417",
+                "Client Error - Expectation Failed"
+            ],
+            "guid": "q+F}pvG;r1",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 418",
+                "Client Error - I'm a teapot"
+            ],
+            "guid": "G8=&As7^_+",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 421",
+                "Client Error - Misdirected Request"
+            ],
+            "guid": "BiEb$-Z$>5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 422",
+                "Client Error - Unprocessable Entity"
+            ],
+            "guid": "B[[=.FLEWX",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 423",
+                "Client Error - Locked"
+            ],
+            "guid": "LI>3}:.Lhz",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 424",
+                "Client Error - Failed Dependancy"
+            ],
+            "guid": "y|Nhw&WkkW",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 426",
+                "Client Error - Upgrade Required"
+            ],
+            "guid": "u%F7&ytlQ>",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 428",
+                "Client Error - Precondition Required"
+            ],
+            "guid": "dK_C}I7OOA",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 429",
+                "Client Error - Too Many Requests"
+            ],
+            "guid": "KM$*f%bkeB",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 431",
+                "Client Error - Request Header Fields Too Large"
+            ],
+            "guid": "xH8,5cJ8?K",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 444",
+                "Client Error - Connection Closed Without Response"
+            ],
+            "guid": "Oo7>=E&,Ti",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 451",
+                "Client Error - Unavailable For Legal Reasons"
+            ],
+            "guid": "bk9;I|$|9o",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 499",
+                "Client Error - Client Closed Request"
+            ],
+            "guid": "lHX^w;6FT!",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 500",
+                "Server Error - Internal Server Error"
+            ],
+            "guid": "z2gPYnry@q",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 501",
+                "Server Error - Not Implemented"
+            ],
+            "guid": "j?`GaUQ]mH",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 502",
+                "Server Error - Bad Gateway"
+            ],
+            "guid": "l1%*IUb!Fp",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 503",
+                "Server Error - Service Unavailable"
+            ],
+            "guid": "evKR%=P*Ew",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 504",
+                "Server Error - Gateway Timeout"
+            ],
+            "guid": "u5/=qa(duF",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 505",
+                "Server Error - HTML Version Not Supported"
+            ],
+            "guid": "DHI,$yn79^",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 506",
+                "Server Error - Variant Also Negotiates"
+            ],
+            "guid": "F)d-v6xk*/",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 507",
+                "Server Error - Insufficient Storage"
+            ],
+            "guid": "os<PSM5v;&",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 508",
+                "Server Error - Loop Detected"
+            ],
+            "guid": "otwv]!y=dt",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 510",
+                "Server Error - Not Extended"
+            ],
+            "guid": "l`z4@rW2JG",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 511",
+                "Server Error - Network Authentication Required"
+            ],
+            "guid": "Mv~7|kj?Rz",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 599",
+                "Server Error - Network Connection Timeout Error"
+            ],
+            "guid": "C`..i2,1u2",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "HTML"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "REPL Stands for?",
+                "Read-eval-print loop<br>| a simple, interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise."
+            ],
+            "guid": "AMV+2^EbVE",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python",
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Set",
+                "Properties: Unordered, iterable, mutable, can contain multiple data types<br><br>Made of unique elements (strings, numbers, or tuples)<br><br>Like Dictionaries, but with keys only (no values)"
+            ],
+            "guid": "j=91=WSs[}",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Data Types",
+                "Int - Integer<br>Float - Floating point number<br>Str - String<br>Bool - Boolean (e.g. true or false)<br>None - NoneType (no value)"
+            ],
+            "guid": "CHivyo5cY>",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Generic Import",
+                "<font color=\"#0000ff\">import [Math]</font> <br># imports the entire module<br># you still have to call functions like [math.sqrt]"
+            ],
+            "guid": "Npv5K^K5&C",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Import one function from a module",
+                "<font color=\"#0000ff\">from math import sqrt</font><br># Imports the sqrt function from math, making it available to the main namespace like sqrt(25)."
+            ],
+            "guid": "B|SG<A$^iY",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Import multiple functions from a module",
+                "<font color=\"#0000ff\">from math import sqrt, cos</font><br># Imports the sqrt and cos function from math, making them available to the main namespace like sqrt(25), cos(50)<br>"
+            ],
+            "guid": "D?W66ea<BS",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: import all functions from a module (generally discouraged)",
+                "<font color=\"#0000ff\">from math import *</font><br># Imports all functions from math, making them available to the main namespace like sqrt(25), cos(50)<br>"
+            ],
+            "guid": "O~!m#!X|ux",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: import a module as an alias",
+                "<font color=\"#0000ff\">import datetime as dt</font><br># Defines an alias \"dt\" that references the datetime module"
+            ],
+            "guid": "d5b{u|x~sC",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: Show all functions in a given module",
+                "<font color=\"#0000ff\">dir(math)&nbsp; </font>#math is just an example<br># Shows all functions (including dunders) in a given module"
+            ],
+            "guid": "J:GNyY[Q`~",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Data Formats: What is YAML?",
+                "YAML Ain't Markup Language<br><font color=\"#0000ff\"><br></font>Header Example:<font color=\"#0000ff\"><br>%YAML 1.2<br>---<br>[text]<br><br></font>Use: Configuration Files<br>Uses: Whitespace (NOT TABS), - (dash, to denote lists)"
+            ],
+            "guid": "x,w[V2V/<L",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Data Formats: What is XML?",
+                "eXtensible Markup Language<br><br>Header Example:<br><font color=\"#0000ff\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\" ?&gt;</font><br><br>Use: Transformation with XSL, Applying XML Schemas<br>Uses: &lt;tags&gt;&lt;/tags&gt;"
+            ],
+            "guid": "nbX9sBFFds",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Data Formats: What is JSON?",
+                "JavaScript Object Notation<br><br>Header Example<br><font color=\"#0000ff\">{</font><br><br>Use: Communication server-web page, Configuration Files<br>Uses: curly braces, square brackes, and quotes (whitespace doesn't matter)"
+            ],
+            "guid": "g.L,>NQ?1r",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization"
+            ]
+        }
+    ]
+}
