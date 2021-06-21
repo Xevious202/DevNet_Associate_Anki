@@ -1,4 +1,5 @@
 #### _This is a Work in Progress a/o June 2021_
+#### _Target Completion July 2021_
 This is an Anki deck made to help anyone study for the Cisco DevNet Associate Exam.
 
 ## Prerequisites
