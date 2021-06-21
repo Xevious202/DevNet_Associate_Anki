@@ -96,8 +96,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "data-serialization",
-                "python"
+                "version-control"
             ],
             "tmpls": [
                 {
@@ -1130,6 +1129,174 @@
             "tags": [
                 "data-serialization",
                 "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What are it's advantages?",
+                "1.) Helps you organize development and engineering work, allowing you to easily collaborate<br>2.) Keeps a history of every change made to the repository, when it was made and who made it."
+            ],
+            "guid": "txDQI)aGy6",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What Command Initializes a directory for a GIT project?",
+                "<font color=\"#0000ff\">git init</font>"
+            ],
+            "guid": "t?6=@8qPYq",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What command configures GIT parameters like username and email address?",
+                "<font color=\"#0000ff\">git config &lt;parameters&gt;</font>"
+            ],
+            "guid": "se8zp~K-Oq",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What GIT Command checks the status of your project?",
+                "<font color=\"#0000ff\">git status</font>"
+            ],
+            "guid": "f|2$f6d#H",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What git command starts tracking files and adds them to the staging area?",
+                "<font color=\"#0000ff\">git add &lt;file/dir&gt;</font>"
+            ],
+            "guid": "Qmtn%O23sK",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What git command stops tracking files but doesn't delete them?",
+                "<font color=\"#0000ff\">git rm &lt;file/dir&gt;</font>"
+            ],
+            "guid": "sLRZKSb@v`",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What git command creates a local snapshot and comment on your project?",
+                "<font color=\"#0000ff\">git commit -m &lt;message&gt;</font>"
+            ],
+            "guid": "OA2V3YL8dE",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What command in Git allows you to make changes to a remote repository?",
+                "<font color=\"#0000ff\">git remote &lt;parameters&gt;</font>"
+            ],
+            "guid": "iMoP3;~qQi",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What git command can get changes from a remote repository?",
+                "1.) <font color=\"#0000ff\">git pull </font>(looks for changes &amp; gets a copy of those changes)<br>2.) <font color=\"#0000ff\">git fetch &lt;parameters&gt; </font>(only checks metadata, used to see if any changes are available)"
+            ],
+            "guid": "zGG/J*k5BI",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What Git command sends local committed changes to a remote repository?",
+                "<font color=\"#0000ff\">git push &lt;parameters&gt;</font>"
+            ],
+            "guid": "u$EGhrbYIj",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what is a remote repository?",
+                "It is a common repository that all team members use to collaborate, where all the files of a given project reside, and where all local repositories are pulled. Can be stored on an internal or external server."
+            ],
+            "guid": "K/Vq_y;>`t",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what is a local repository?",
+                "It is a personal repository, typically on your own machine, where commits (also called snapshots) are stored."
+            ],
+            "guid": "Mv?x,r#c]n",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what is a Staging Area?",
+                "Like a rough draft space, where you can <font color=\"#0000ff\">git add</font> the version of a file(s) that you want git to track for your next commit. Also called an \"INDEX\", it is a \"proto-commit\" that will turn into your next commit when <font color=\"#0000ff\">git commit </font>is ran."
+            ],
+            "guid": "?ZgpnnYk>",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what is the Working Directory?",
+                "It is a single checkout of one version of the project (repository) which is \"clean\" until you make changes. Controlled by Git, differences are tracked between your working directory and local repository, and again between your local repository and the remote (if there is one). It contains a .git subfolder with all the git related revision history of your repo."
+            ],
+            "guid": "QD`MO|V<{(",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
             ]
         }
     ]

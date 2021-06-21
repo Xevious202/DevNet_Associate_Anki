@@ -13,16 +13,16 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
   - https://github.com/Xevious202/DevNet_Associate_Anki
 - If you'd like to add cards to this deck, please contribute them!
 
-## Exam Blueprint | 70 Cards
-### 1.0 Software Development & Design 15% | 6 Cards Created
+## Exam Blueprint | 84 Cards
+### 1.0 Software Development & Design 15% | 20 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
 - 1.3 Describe the concepts of test-driven development
 - 1.4 Compare software development methods (agile, lean, and waterfall)
 - 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 - 1.6 Identify the advantages of common design patterns (MVC and Observer)
-- 1.7 Explain the advantages of version control
-- 1.8 Utilize common version control operations with Git
+- 1.7 Explain the advantages of version control | 5 "version-control"
+- 1.8 Utilize common version control operations with Git | 9 "version-control"
   - 1.8.a Clone
   - 1.8.b Add/remove
   - 1.8.c Commit
