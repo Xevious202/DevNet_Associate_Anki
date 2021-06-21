@@ -96,7 +96,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "data-serialization"
+                "data-serialization",
+                "python"
             ],
             "tmpls": [
                 {
@@ -1090,6 +1091,45 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "data-serialization"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Parsing: YAML to Python?",
+                "Leverage the PyYAML Library<br>1.)<font color=\"#0000ff\"> pip install PyYAML</font><br>2.) <font color=\"#0000ff\">import yaml</font><br><br>Leverage the ruamel.yaml Library<br>1.) <font color=\"#0000ff\">pip install ruamel.yaml</font><br>2.) <font color=\"#0000ff\">from ruamel.yaml import YAML</font><br>"
+            ],
+            "guid": "GvU*E?;auc",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Parsing: JSON to Python?",
+                "Leverage the json Library<br>1.)<font color=\"#0000ff\"> import json</font><br>"
+            ],
+            "guid": "m%s/<-@47!",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Parsing XML to Python?",
+                "Leverage the xmltodict Library<br>1.) <font color=\"#0000ff\">pip install xmltodict</font><br>2.) <font color=\"#0000ff\">import xmltodict</font><br><br>Leverage the untangle Library<br>1.) <font color=\"#0000ff\">pip install untangle</font><br>2.) <font color=\"#0000ff\">import untangle</font><br><br>Leverage the minidom Library<br>1.) <font color=\"#0000ff\">import xml.dom.minidom</font><br><br>Leverage the ElementTree Library<br>1.) <font color=\"#0000ff\">import xml.etree.ElementTree</font><br><br>"
+            ],
+            "guid": "K}Q9Vzwt5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "data-serialization",
+                "python"
             ]
         }
     ]
