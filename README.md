@@ -14,7 +14,7 @@ This is an Anki deck made to help those in need study for the DevNet Associate E
 
 ## Exam Blueprint | 3 Cards
 ### 1.0 Software Development & Design 15% | 3 Cards Created
-- 1.1 Compare data formats (XML, JSON, and YAML) | 3
+- 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
 - 1.3 Describe the concepts of test-driven development
 - 1.4 Compare software development methods (agile, lean, and waterfall)
