@@ -21,11 +21,11 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-## Exam Blueprint | 109 Cards <tag>
-### 1.0 Software Development & Design 15% | 32 Cards Created
+## Exam Blueprint | 111 Cards <tag>
+### 1.0 Software Development & Design 15% | 34 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
-- 1.3 Describe the concepts of test-driven development
+- 1.3 Describe the concepts of test-driven development | 2 "development"
 - 1.4 Compare software development methods (agile, lean, and waterfall) | 3 "development"
 - 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 - 1.6 Identify the advantages of common design patterns (MVC and Observer)
