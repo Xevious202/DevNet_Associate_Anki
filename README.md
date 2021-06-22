@@ -13,8 +13,8 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
   - https://github.com/Xevious202/DevNet_Associate_Anki
 - If you'd like to add cards to this deck, please contribute them!
 
-## Exam Blueprint | 84 Cards
-### 1.0 Software Development & Design 15% | 20 Cards Created
+## Exam Blueprint | 106 Cards <tag>
+### 1.0 Software Development & Design 15% | 29 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
 - 1.3 Describe the concepts of test-driven development
@@ -22,7 +22,7 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
 - 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 - 1.6 Identify the advantages of common design patterns (MVC and Observer)
 - 1.7 Explain the advantages of version control | 5 "version-control"
-- 1.8 Utilize common version control operations with Git | 9 "version-control"
+- 1.8 Utilize common version control operations with Git | 17 "version-control"
   - 1.8.a Clone
   - 1.8.b Add/remove
   - 1.8.c Commit
@@ -31,8 +31,8 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
   - 1.8.f Merge and handling conflicts
   - 1.8.g diff
 
-### 2.0 Understanding and Using APIs 20% | 64 Cards Created
-- 2.1 Construct a REST API request to accomplish a task given API documentation
+### 2.0 Understanding and Using APIs 20% | 65 Cards Created
+- 2.1 Construct a REST API request to accomplish a task given API documentation | 1 "API"
 - 2.2 Describe common usage patterns related to webhooks
 - 2.3 Identify the constraints when consuming APIs
 - 2.4 Explain common HTTP response codes associated with REST APIs | 64 "API", "HTML"
@@ -73,13 +73,13 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
 - 4.11 Utilize Bash commands (file management, directory navigation, and environmental variables)
 - 4.12 Identify the principles of DevOps practices
 
-### 5.0 Infrastructure & Automation 20% | No Cards Created
+### 5.0 Infrastructure & Automation 20% | 4 Cards Created
 - 5.1 Describe the value of model driven programmability for infrastructure automation
 - 5.2 Compare controller-level to device-level management
-- 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS)
+- 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS) | 1 "Automation"
 - 5.4 Describe the components and benefits of CI/CD pipeline in infrastructure automation
 - 5.5 Describe principles of infrastructure as code
-- 5.6 Describe the capabilities of automation tools such as Ansible, Puppet, Chef, and Cisco NSO
+- 5.6 Describe the capabilities of automation tools such as Ansible, Puppet, Chef, and Cisco NSO | 3 "Automation"
 - 5.7 Identify the workflow being automated by a Python script that uses Cisco APIs including ACI, Meraki, Cisco DNA Center, or RESTCONF
 - 5.8 Identify the workflow being automated by an Ansible playbook (management packages, user management related to services, basic service configuration, and start/stop)
 - 5.9 Identify the workflow being automated by a bash script (such as file management, app install, user management, directory navigation)
@@ -99,6 +99,13 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
 - 6.7 Recognize common protocol port values (such as, SSH, Telnet, HTTP, HTTPS, and NETCONF)
 - 6.8 Identify cause of application connectivity issues (NAT problem, Transport Port blocked, proxy, and VPN)
 - 6.9 Explain the impacts of network constraints on applications
+
+### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 9 Cards Created
+- Python Basics | 9 "python", "shell"
+  - Compare Sets
+  - Data Types
+  - Importing Modules
+  - REPL
 
 ## License
 

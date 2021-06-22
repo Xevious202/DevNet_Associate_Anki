@@ -96,7 +96,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "version-control"
+                "Automation"
             ],
             "tmpls": [
                 {
@@ -1297,6 +1297,162 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What Git command shows you a list of commit messages &amp; hashes?",
+                "<font color=\"#0000ff\">Git log --oneline</font>"
+            ],
+            "guid": "r8_6&749.N",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: What Git command allows you to move to a previous commit?",
+                "<font color=\"#0000ff\">git revert &lt;hash&gt;</font>"
+            ],
+            "guid": "EuxIv.cnO]",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, how do you manipulate branching?",
+                "<font color=\"#0000ff\">git branch &lt;with or without parameters&gt;</font> (allows you to see/create/delete local branches)<br>"
+            ],
+            "guid": "Byt6q(P^4A",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, how do you move to another branch?",
+                "<font color=\"#0000ff\">git checkout &lt;parameters&gt;<br></font>Note: you can both create and move to a new branch with git checkout -b &lt;branchname&gt;<font color=\"#0000ff\"><br></font>"
+            ],
+            "guid": "d1$Z{ay@}$",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, how do you combine two branches?",
+                "<font color=\"#0000ff\">git merge &lt;branch to be merged&gt;</font> (command is ran from the target branch, e.g. ran from master to collapse a branch into the master)"
+            ],
+            "guid": "km,kbCe6ft",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what happens when automatic merge conflict resolution fails on one or more files (no deletions)?",
+                "You have to solve the conflict manually, you'll see an error output in the merge, but you can also run <font color=\"#0000ff\">git status</font> to see the files with conflicts. Look for \"<font color=\"#0000ff\">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</font>\", the change on file, \"<font color=\"#0000ff\">=======</font>\", and your proposed change followed by another \"<font color=\"#0000ff\">&lt;&lt;&lt;&lt;&lt;&lt;&lt; (branchname)\"</font>.<br>Delete the conflict report, keeping the \"correct\" string, <font color=\"#0000ff\">git add</font> your fixes, commit, and try the merge again. (You can either merge locally or push the changes to the remote git and perform a pull request to merge it there)<br>"
+            ],
+            "guid": "luMhqr!lcU",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, what happens when automatic merge conflict resolution fails due to file removal?",
+                "You have to solve the conflict manually, you'll see an error both in the merge output, and a <font color=\"#0000ff\">git status </font>command. If you choose to keep the file, add it back to the staging area (Index). If you want to delete the file, <font color=\"#0000ff\">git rm &lt;filename&gt; </font>to remove it from git. Then commit and merge again. (You can either merge locally or push the changes to the remote git and perform a pull request to merge it there)"
+            ],
+            "guid": "ey:tdn-;{3",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In Git, how do you see the difference between your staging area (Index) and last commit (your working tree)?",
+                "<font color=\"#0000ff\">git diff</font><br>a<font color=\"#0000ff\"> -</font> sign at the beginning means the original string<br>a <font color=\"#0000ff\">+</font> sign means staged changes<br><br>By applying <font color=\"#0000ff\">--cached</font>, you see staging vs. local repository<br><br>By applying <font color=\"#0000ff\">HEAD</font>, you see working directory vs. local repository<br><br>You can also use commit hashes to compare"
+            ],
+            "guid": "y5B?SJZ.m}",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What's the difference between POST and PUT?",
+                "Idempotency;<br>POST: Used to <i>modify </i>AND <i>update</i> a resource<br>PUT: Used to <i>create</i> or <i>overwrite</i> a resource<br><br>PUT is idempotent, no matter how many times you run it, you'll get the one result, think <i>x=1</i>. POST updates or causes a change, think <i>x=x+1.</i>"
+            ],
+            "guid": "BMQiTV^aF1",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: Describe the capabilities of Ansible",
+                "Ansible is Declarative, telling it what to do, not how to do it.<br><br>Pushes configuration from hub to spokes<br><br>Uses Playbooks and roles which allow reuse of common configuration steps.<br><br>Has pre-built modules that can be combined to accomplish your goal."
+            ],
+            "guid": "rS%Y[/<k$7",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: Describe the capabilities of Puppet",
+                "Puppet is Declarative, telling it what to do, not how to do it.<br><br>Nodes PULL configuration tasks from the hub<br><br>Puppet Agent required on nodes.<br><br>Leverages PuppetDB and Facter to store all data generated by Puppet and discover/report per-node facts."
+            ],
+            "guid": "JiSJFrns}^",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: Describe the capabilities of Chef",
+                "Chef is Procedural, telling a node how to do something, not just what to do.<br><br>Nodes PULL configuration from the hub.<br><br>Requires an agent on nodes.<br><br>Uses Recipes (collection of attributes) and Cookbooks (collections of Recipes).<br>"
+            ],
+            "guid": "H^pw4JY@v:",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is pyATS?",
+                "Automation testing, for test driven development<br><br>Allows network engineers to perform stateful validation of their device operational status, automate day-to-day DevOps activities, and build a safety-net of scalable, reusable tests around their network with a Dashboard.<br><br>Uses virtual or physical test bed.<br>"
+            ],
+            "guid": "s1`LINPv|8",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
             ]
         }
     ]
