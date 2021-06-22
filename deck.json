@@ -34,7 +34,7 @@
                     0
                 ],
                 "order": 0,
-                "perDay": 20
+                "perDay": 300
             },
             "newMix": 0,
             "newPerDayMinimum": 0,
@@ -55,7 +55,11 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "640px-Waterfall_model.png",
+        "7-lean-principles.png",
+        "agile-sdlc2.png"
+    ],
     "mid": 1623966180796,
     "name": "DevNet Associate",
     "note_models": [
@@ -96,7 +100,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Automation"
+                "Development"
             ],
             "tmpls": [
                 {
@@ -132,7 +136,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 101",
-                "Informational Switching Protocols"
+                "Informational: Switching Protocols"
             ],
             "guid": "m4%Di0[:nz",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1453,6 +1457,42 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Development: Define Waterfall (SDLC)",
+                "Waterfall: A software development methodology where a linear process is visualized as moving down through phases.<br><img src=\"640px-Waterfall_model.png\"><br>Pros: Rigid and Structured, easy to set milestones. Works well for small, well-defined projects.<br>Cons: As all requirements are identified once, in the beginning, changing direction can be difficult. Is generally much slower, with a much larger implementation."
+            ],
+            "guid": "J]hiYmZfA2",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Development"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Development: Define Agile (SDLC)",
+                "Agile: One of the newer and most popular methodologies based on frequent and small incremental releases focused on small, iterative improvements to align with requirements as they are understood or change.<br><img src=\"agile-sdlc2.png\"><br>Pros: Allows testing and re-evaluation at each cycle. Much faster iterations (in Scrum, called a \"Sprint\") on the order of 2 weeks or even hours.<br>Cons: Scope creep can occur due to less understood initial requirements. Can be difficult to maintain documentation as speed is sometimes given priority."
+            ],
+            "guid": "Q<nAwvOSxc",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Development"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Development: Define Lean (SDLC)",
+                "Lean: Adapted from the Toyota Production System, everything that doesn't add value to the customer is seen as waste (\"muda\"). Lean software development is considered to be an Agile software development method. Three major points are people, processes, and purpose.<br><br><img src=\"7-lean-principles.png\"><br>Pros: Eliminates superfluous work, saving time and money<br>Cons: Highly team skill dependent, requiring excellent documentation."
+            ],
+            "guid": "OwgrvV+&84",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Development"
             ]
         }
     ]
