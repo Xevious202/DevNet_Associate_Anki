@@ -12,7 +12,7 @@ This is an Anki deck made to help anyone study for the Cisco DevNet Associate Ex
 - Import this deck using "CrowdAnki: Import from Git Repository" using this URL
   - https://github.com/Xevious202/DevNet_Associate_Anki
 - If you'd like to add cards to this deck, please contribute them!
-## Blueprint Verbs are important! (Follows Bloom's Taxonomy)
+## Blueprint Verbs are important! (SRC: [Bloom's Taxonomy])
 Indicate level of skill/knowledge needed on each topic. Associate level is (on average) just above "Describe"
 | Verb | Difficulty |
 | ------ | ------ |
@@ -20,7 +20,6 @@ Indicate level of skill/knowledge needed on each topic. Associate level is (on a
 | Troubleshoot | Professional level, Understand show commands and how to spot/fix misconfigured values |
 | Construct/Verify/Interpret | You may be asked how to configure this |
 | Describe/Compare/Explain/Identify | Conceptual, likely not covered in simulated environment questions |
-SRC: [Bloom's Taxonomy]
 
 ## Exam Blueprint | 106 Cards <tag>
 ### 1.0 Software Development & Design 15% | 29 Cards Created
