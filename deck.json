@@ -100,7 +100,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Development"
+                "version-control"
             ],
             "tmpls": [
                 {
@@ -1517,6 +1517,30 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Development"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In GitLab, how do you request your branch be merged into the main/master?",
+                "With a&nbsp;<i>Merge Request</i>"
+            ],
+            "guid": "Ew,}GkmZ5z",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Version Control: In GitHub, how do you request your branch be merged into the main/master?",
+                "With a <i>Pull Request</i>"
+            ],
+            "guid": "P>?C-U^}ZL",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "version-control"
             ]
         }
     ]
