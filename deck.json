@@ -106,7 +106,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "version-control"
+                "Design"
             ],
             "tmpls": [
                 {
@@ -431,19 +431,6 @@
                 "Client Error - Payment Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "H]6D>AgTlQ",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "&nbsp;HTML 402",
-                "Client Error - Payment Required"
-            ],
-            "guid": "y4Hv2cQDj.",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -1547,6 +1534,54 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "version-control"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is a Function and why would you use it?",
+                "Functions are a handy way to isolate a particular part of your program’s functionality and make it&nbsp;<i>reusable. </i>They are easily called upon instead of rewriting multiple lines of code.<br><br>Remember DRY (Do not Repeat Yourself) in code, so doing something more than once is a good indicator to create a function.<br><br>Functions are generally task specific and short so that they are easily reused regardless of what the purpose of your code is. (e.g. \"Turn all integers into floats\" could be used in creating a new encoding, or used in any number of ways).<br><br>In Python, functions have their own namespace, allowing you to reuse variable names and values that you don't want leaked into the main namespace."
+            ],
+            "guid": "jxQ~`QTQ]u",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is a Module and why would you use it?",
+                "Modules package function(s) along with classes, global variables and other statements and comments. This allows certain features source code to be separated from the rest of the application code then ran together at runtime.<br><br>They should have as few dependencies as possible but are rarely fully independent.<br><br>Many modules have a <font color=\"#0000ff\">__main__</font> section that allows you to run the module by itself to see examples of what it does and why (e.g. the math module). Remember that a Module should NOT run anything automatically when imported!<br><br>They compartmentalize complex tasks or processes and make them easily usable in other code with the <font color=\"#0000ff\">import</font> statement.<br><br><br>"
+            ],
+            "guid": "r$m=2~yO?-",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is a Class and why would you use it?",
+                "Classes are used to keep related things together in an Object Oriented Programming (OOP) language like Python.<br><br>A Class is a collection of data (variables), and Methods (functions). It's generally accepted that classes use a capitalized first letter, where functions are lowercase. Classes can also inherit data from other Classes (e.g. <font color=\"#0000ff\">Yellowstone</font> might inherit variables and Methods from Class <font color=\"#0000ff\">National_Parks</font>).<br><br>It stores shared features, where unique features should go under the instance.<br><br>e.g.&nbsp;<br>class Switch:<br>&nbsp; &nbsp; name = \"Catalyst\"<br>&nbsp; &nbsp; model = \"9300\"<br><br>When you call a function, it runs the function.<br>When you call a Class, it makes an instance.<br>"
+            ],
+            "guid": "NSb9U33T5l",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is a Method and why would you use it?",
+                "A Method is a function that access a Class attribute. They are nested into a Class, and you will always need to provide the first argument to the Method with the <font color=\"#0000ff\">self</font> keyword.<br><br>A common Class Method is the <font color=\"#0000ff\">__init__ </font>Method.&nbsp; It is used to provide initial values for Class attributes at runtime (think defaults)."
+            ],
+            "guid": "EYKGf${pLn",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
             ]
         }
     ]
