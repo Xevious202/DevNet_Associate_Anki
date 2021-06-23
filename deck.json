@@ -58,6 +58,12 @@
     "media_files": [
         "640px-Waterfall_model.png",
         "7-lean-principles.png",
+        "HTTP-Client_Error_1.png",
+        "HTTP-Client_Error_2.png",
+        "HTTP-Informational.png",
+        "HTTP-Redirectional.png",
+        "HTTP-Server_Error.png",
+        "HTTP-Success.png",
         "agile-sdlc2.png"
     ],
     "mid": 1623966180796,
@@ -123,7 +129,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 100",
-                "Informational - Continue"
+                "Informational - Continue<br><img src=\"HTTP-Informational.png\">"
             ],
             "guid": "AH}FJK6U;i",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -136,7 +142,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 101",
-                "Informational: Switching Protocols"
+                "Informational: Switching Protocols<br><img src=\"HTTP-Informational.png\">"
             ],
             "guid": "m4%Di0[:nz",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -149,7 +155,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 102",
-                "Informational - Processing"
+                "Informational - Processing<br><img src=\"HTTP-Informational.png\">"
             ],
             "guid": "fe4h&C$=}R",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -162,7 +168,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 200",
-                "Success - OK"
+                "Success - OK<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "0O/~W!.DC",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -175,7 +181,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 201",
-                "Success - Created"
+                "Success - Created<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "O>/Cd?Zcv_",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -188,7 +194,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 202",
-                "Success - Accepted"
+                "Success - Accepted<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "dg:l32h!(X",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -201,7 +207,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 203",
-                "Success - Non-authoritative information"
+                "Success - Non-authoritative information<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "e_!rea*~<m",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -214,7 +220,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 204",
-                "Success - No Content"
+                "Success - No Content<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "j@5YA$Hi6[",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -227,7 +233,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 205",
-                "Success - Reset Content"
+                "Success - Reset Content<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "w~4jiukms_",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -240,7 +246,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 206",
-                "Success - Partial Content"
+                "Success - Partial Content<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "cx={kbp;EX",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -253,7 +259,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 207",
-                "Success - Multi-Status"
+                "Success - Multi-Status<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "Lqq?ztYex)",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -266,7 +272,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 208",
-                "Success - Already Reported"
+                "Success - Already Reported<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "I)C0C1q[~[",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -279,7 +285,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 226",
-                "Success - IM Used"
+                "Success - IM Used<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "icru=5%;s1",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -292,7 +298,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 300",
-                "Redirectional - Multiple Choices"
+                "Redirectional - Multiple Choices<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "qTzP&yh#0G",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -305,7 +311,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 301",
-                "Redirectional - Moved Permanently"
+                "Redirectional - Moved Permanently<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "AChyL6%&B]",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -318,7 +324,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 302",
-                "Redirectional - Found"
+                "Redirectional - Found<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "x:5z*d3trO",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -331,7 +337,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 303",
-                "Redirectional - See Other"
+                "Redirectional - See Other<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "ivM]w;YGg5",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -344,7 +350,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 304",
-                "Redirectional - Not Modified"
+                "Redirectional - Not Modified<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "Dw3)(;^Q@g",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -357,7 +363,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 305",
-                "Redirectional - Use Proxy"
+                "Redirectional - Use Proxy<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "C};|6,`-9f",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -370,7 +376,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 307",
-                "Redirectional - Temporary Redirect"
+                "Redirectional - Temporary Redirect<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "M/<prgn{Zb",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -383,7 +389,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 308",
-                "Redirectional - Permanent Redirect"
+                "Redirectional - Permanent Redirect<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "yxhtIlR8k~",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -396,7 +402,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 400",
-                "Client Error - Bad Request"
+                "Client Error - Bad Request<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "s?;)7.N>ON",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -409,7 +415,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 401",
-                "Client Error - Unauthorized"
+                "Client Error - Unauthorized<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "HaHS`irZ2f",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -422,7 +428,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 402",
-                "Client Error - Payment Required"
+                "Client Error - Payment Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "H]6D>AgTlQ",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -448,7 +454,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 403",
-                "Client Error - Forbidden"
+                "Client Error - Forbidden<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "EuzH:FkXqk",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -461,7 +467,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 404",
-                "Client Error - Not Found"
+                "Client Error - Not Found<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "k3wL$GAom)",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -474,7 +480,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 405",
-                "Client Error - Method Not Allowed"
+                "Client Error - Method Not Allowed<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "C8(-TP`lg:",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -487,7 +493,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 406",
-                "Client Error - Not Acceptable"
+                "Client Error - Not Acceptable<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "hr#5FOu012",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -500,7 +506,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 407",
-                "Client Error - Proxy Authentication Required"
+                "Client Error - Proxy Authentication Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "q|sd<v^-U`",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -513,7 +519,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 408",
-                "Client Error - Request Timeout"
+                "Client Error - Request Timeout<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "nx)-8pl*%X",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -526,7 +532,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 409",
-                "Client Error - Conflict"
+                "Client Error - Conflict<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "c5C=#CTYHd",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -539,7 +545,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 410",
-                "Client Error - Gone"
+                "Client Error - Gone<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "v(U#(55/Ac",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -552,7 +558,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 411",
-                "Client Error - Length Required"
+                "Client Error - Length Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "kRd(Lz2:h.",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -565,7 +571,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 412",
-                "Client Error - Precondition Failed"
+                "Client Error - Precondition Failed<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "DFcI3]F-U,",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -578,7 +584,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 413",
-                "Client Error - Payload Too Large"
+                "Client Error - Payload Too Large<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "g@TdXIk3Y6",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -591,7 +597,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 414",
-                "Client Error - Request-URI Too Long"
+                "Client Error - Request-URI Too Long<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "p|[2p-/ok?",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -604,7 +610,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 415",
-                "Client Error - Unsupported Media Type"
+                "Client Error - Unsupported Media Type<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "M/cLh<5eR0",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -617,7 +623,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 416",
-                "Client Error - Requested Range Not Satisfiable"
+                "Client Error - Requested Range Not Satisfiable<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "D$ZPr9u%uS",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -630,7 +636,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 417",
-                "Client Error - Expectation Failed"
+                "Client Error - Expectation Failed<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "q+F}pvG;r1",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -643,7 +649,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 418",
-                "Client Error - I'm a teapot"
+                "Client Error - I'm a teapot<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "G8=&As7^_+",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -656,7 +662,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 421",
-                "Client Error - Misdirected Request"
+                "Client Error - Misdirected Request<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "BiEb$-Z$>5",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -669,7 +675,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 422",
-                "Client Error - Unprocessable Entity"
+                "Client Error - Unprocessable Entity<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "B[[=.FLEWX",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -682,7 +688,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 423",
-                "Client Error - Locked"
+                "Client Error - Locked<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "LI>3}:.Lhz",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -695,7 +701,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 424",
-                "Client Error - Failed Dependancy"
+                "Client Error - Failed Dependancy<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "y|Nhw&WkkW",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -708,7 +714,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 426",
-                "Client Error - Upgrade Required"
+                "Client Error - Upgrade Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "u%F7&ytlQ>",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -721,7 +727,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 428",
-                "Client Error - Precondition Required"
+                "Client Error - Precondition Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "dK_C}I7OOA",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -734,7 +740,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 429",
-                "Client Error - Too Many Requests"
+                "Client Error - Too Many Requests<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "KM$*f%bkeB",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -747,7 +753,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 431",
-                "Client Error - Request Header Fields Too Large"
+                "Client Error - Request Header Fields Too Large<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "xH8,5cJ8?K",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -760,7 +766,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 444",
-                "Client Error - Connection Closed Without Response"
+                "Client Error - Connection Closed Without Response<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "Oo7>=E&,Ti",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -773,7 +779,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 451",
-                "Client Error - Unavailable For Legal Reasons"
+                "Client Error - Unavailable For Legal Reasons<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "bk9;I|$|9o",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -786,7 +792,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 499",
-                "Client Error - Client Closed Request"
+                "Client Error - Client Closed Request<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "lHX^w;6FT!",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -799,7 +805,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 500",
-                "Server Error - Internal Server Error"
+                "Server Error - Internal Server Error<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "z2gPYnry@q",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -812,7 +818,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 501",
-                "Server Error - Not Implemented"
+                "Server Error - Not Implemented<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "j?`GaUQ]mH",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -825,7 +831,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 502",
-                "Server Error - Bad Gateway"
+                "Server Error - Bad Gateway<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "l1%*IUb!Fp",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -838,7 +844,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 503",
-                "Server Error - Service Unavailable"
+                "Server Error - Service Unavailable<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "evKR%=P*Ew",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -851,7 +857,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 504",
-                "Server Error - Gateway Timeout"
+                "Server Error - Gateway Timeout<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "u5/=qa(duF",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -864,7 +870,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 505",
-                "Server Error - HTML Version Not Supported"
+                "Server Error - HTML Version Not Supported<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "DHI,$yn79^",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -877,7 +883,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 506",
-                "Server Error - Variant Also Negotiates"
+                "Server Error - Variant Also Negotiates<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "F)d-v6xk*/",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -890,7 +896,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 507",
-                "Server Error - Insufficient Storage"
+                "Server Error - Insufficient Storage<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "os<PSM5v;&",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -903,7 +909,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 508",
-                "Server Error - Loop Detected"
+                "Server Error - Loop Detected<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "otwv]!y=dt",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -916,7 +922,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 510",
-                "Server Error - Not Extended"
+                "Server Error - Not Extended<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "l`z4@rW2JG",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -929,7 +935,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 511",
-                "Server Error - Network Authentication Required"
+                "Server Error - Network Authentication Required<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "Mv~7|kj?Rz",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -942,7 +948,7 @@
             "__type__": "Note",
             "fields": [
                 "HTML 599",
-                "Server Error - Network Connection Timeout Error"
+                "Server Error - Network Connection Timeout Error<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "C`..i2,1u2",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
