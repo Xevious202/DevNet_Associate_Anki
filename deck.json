@@ -56,6 +56,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
+        "436px-MVC-Process.svg.png",
         "640px-Waterfall_model.png",
         "7-lean-principles.png",
         "HTTP-Client_Error_1.png",
@@ -94,7 +95,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic",
+            "name": "Basic-038ef",
             "req": [
                 [
                     0,
@@ -141,166 +142,10 @@
         {
             "__type__": "Note",
             "fields": [
-                "HTML 101",
-                "Informational: Switching Protocols<br><img src=\"HTTP-Informational.png\">"
-            ],
-            "guid": "m4%Di0[:nz",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 102",
-                "Informational - Processing<br><img src=\"HTTP-Informational.png\">"
-            ],
-            "guid": "fe4h&C$=}R",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "HTML 200",
                 "Success - OK<br><img src=\"HTTP-Success.png\">"
             ],
             "guid": "0O/~W!.DC",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 201",
-                "Success - Created<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "O>/Cd?Zcv_",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 202",
-                "Success - Accepted<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "dg:l32h!(X",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 203",
-                "Success - Non-authoritative information<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "e_!rea*~<m",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 204",
-                "Success - No Content<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "j@5YA$Hi6[",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 205",
-                "Success - Reset Content<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "w~4jiukms_",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 206",
-                "Success - Partial Content<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "cx={kbp;EX",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 207",
-                "Success - Multi-Status<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "Lqq?ztYex)",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 208",
-                "Success - Already Reported<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "I)C0C1q[~[",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 226",
-                "Success - IM Used<br><img src=\"HTTP-Success.png\">"
-            ],
-            "guid": "icru=5%;s1",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 300",
-                "Redirectional - Multiple Choices<br><img src=\"HTTP-Redirectional.png\">"
-            ],
-            "guid": "qTzP&yh#0G",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -336,62 +181,10 @@
         {
             "__type__": "Note",
             "fields": [
-                "HTML 303",
-                "Redirectional - See Other<br><img src=\"HTTP-Redirectional.png\">"
-            ],
-            "guid": "ivM]w;YGg5",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "HTML 304",
                 "Redirectional - Not Modified<br><img src=\"HTTP-Redirectional.png\">"
             ],
             "guid": "Dw3)(;^Q@g",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 305",
-                "Redirectional - Use Proxy<br><img src=\"HTTP-Redirectional.png\">"
-            ],
-            "guid": "C};|6,`-9f",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 307",
-                "Redirectional - Temporary Redirect<br><img src=\"HTTP-Redirectional.png\">"
-            ],
-            "guid": "M/<prgn{Zb",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 308",
-                "Redirectional - Permanent Redirect<br><img src=\"HTTP-Redirectional.png\">"
-            ],
-            "guid": "yxhtIlR8k~",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -418,19 +211,6 @@
                 "Client Error - Unauthorized<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "HaHS`irZ2f",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 402",
-                "Client Error - Payment Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "H]6D>AgTlQ",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -479,32 +259,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "HTML 406",
-                "Client Error - Not Acceptable<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "hr#5FOu012",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 407",
-                "Client Error - Proxy Authentication Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "q|sd<v^-U`",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "HTML 408",
                 "Client Error - Request Timeout<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
@@ -518,270 +272,10 @@
         {
             "__type__": "Note",
             "fields": [
-                "HTML 409",
-                "Client Error - Conflict<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "c5C=#CTYHd",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 410",
-                "Client Error - Gone<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "v(U#(55/Ac",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 411",
-                "Client Error - Length Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "kRd(Lz2:h.",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 412",
-                "Client Error - Precondition Failed<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "DFcI3]F-U,",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 413",
-                "Client Error - Payload Too Large<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "g@TdXIk3Y6",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "HTML 414",
                 "Client Error - Request-URI Too Long<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
             ],
             "guid": "p|[2p-/ok?",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 415",
-                "Client Error - Unsupported Media Type<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "M/cLh<5eR0",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 416",
-                "Client Error - Requested Range Not Satisfiable<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "D$ZPr9u%uS",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 417",
-                "Client Error - Expectation Failed<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "q+F}pvG;r1",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 418",
-                "Client Error - I'm a teapot<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "G8=&As7^_+",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 421",
-                "Client Error - Misdirected Request<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "BiEb$-Z$>5",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 422",
-                "Client Error - Unprocessable Entity<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "B[[=.FLEWX",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 423",
-                "Client Error - Locked<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "LI>3}:.Lhz",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 424",
-                "Client Error - Failed Dependancy<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "y|Nhw&WkkW",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 426",
-                "Client Error - Upgrade Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "u%F7&ytlQ>",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 428",
-                "Client Error - Precondition Required<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "dK_C}I7OOA",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 429",
-                "Client Error - Too Many Requests<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "KM$*f%bkeB",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 431",
-                "Client Error - Request Header Fields Too Large<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "xH8,5cJ8?K",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 444",
-                "Client Error - Connection Closed Without Response<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "Oo7>=E&,Ti",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 451",
-                "Client Error - Unavailable For Legal Reasons<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "bk9;I|$|9o",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 499",
-                "Client Error - Client Closed Request<br><img src=\"HTTP-Client_Error_1.png\"><br><img src=\"HTTP-Client_Error_2.png\">"
-            ],
-            "guid": "lHX^w;6FT!",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -847,97 +341,6 @@
                 "Server Error - Gateway Timeout<br><img src=\"HTTP-Server_Error.png\">"
             ],
             "guid": "u5/=qa(duF",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 505",
-                "Server Error - HTML Version Not Supported<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "DHI,$yn79^",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 506",
-                "Server Error - Variant Also Negotiates<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "F)d-v6xk*/",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 507",
-                "Server Error - Insufficient Storage<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "os<PSM5v;&",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 508",
-                "Server Error - Loop Detected<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "otwv]!y=dt",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 510",
-                "Server Error - Not Extended<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "l`z4@rW2JG",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 511",
-                "Server Error - Network Authentication Required<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "Mv~7|kj?Rz",
-            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
-            "tags": [
-                "API",
-                "HTML"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML 599",
-                "Server Error - Network Connection Timeout Error<br><img src=\"HTTP-Server_Error.png\">"
-            ],
-            "guid": "C`..i2,1u2",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API",
@@ -1579,6 +982,30 @@
                 "A Method is a function that access a Class attribute. They are nested into a Class, and you will always need to provide the first argument to the Method with the <font color=\"#0000ff\">self</font> keyword.<br><br>A common Class Method is the <font color=\"#0000ff\">__init__ </font>Method.&nbsp; It is used to provide initial values for Class attributes at runtime (think defaults)."
             ],
             "guid": "EYKGf${pLn",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is the MVC?",
+                "Model-View-Controller, an architectural software design pattern. Each item being an object role.<br><br>Model: Encapsulates what the information IS<br>View: For displaying information to the user (Contains the common \"Front-end\")<br>Controller: Makes changes to the model on input if necessary, informs the view component to update the presentation.<br><br>A primary feature: Separation of the View and the Model.<br><img src=\"436px-MVC-Process.svg.png\">"
+            ],
+            "guid": "JFH_F/3j[6",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Design: What is the Observer pattern?",
+                "The&nbsp;<b>observer pattern</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Design_pattern_(computer_science)\">behavioral software design pattern</a>&nbsp;in which an&nbsp;<a href=\"https://en.wikipedia.org/wiki/Object_(computer_science)#Objects_in_object-oriented_programming\">object</a>, named the&nbsp;<b>subject</b>, maintains a list of its dependents, called&nbsp;<b>observers</b>, and notifies them automatically of any state changes, usually by calling one of their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Method_(computer_science)\">methods</a>.<br>(<a href=\"https://en.wikipedia.org/wiki/Observer_pattern\">SRC</a>)<br><br>Mainly used in event handling/driven software, like social media, song playlists, etc."
+            ],
+            "guid": "G?18Q(aaze",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Design"
