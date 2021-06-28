@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Design"
+                "Automation"
             ],
             "tmpls": [
                 {
@@ -1009,6 +1009,66 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Design"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is a Northbound Interface",
+                "Northbound APIs or northbound interfaces are responsible for the communication between the SDN controller and the services that run over the network. They summarize, or abstract, the lower-level control information occuring between the controller and southbound physical or virtual components. This communication is typically done with REST API's.&nbsp;<br><br>"
+            ],
+            "guid": "w:!qhTS[TO",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is a Southbound Interface",
+                "Southbound interfaces are used to interact with physical or virtual devices in the network. this is done over lower-level communication methods like:<br>Netconf / RESTconf<br>OpFlex<br>OpenFlow<br>SNMP<br>REST<br>and other vendor-specific protocols (like NX-API for Cisco Nexus devices)"
+            ],
+            "guid": "DB-9Fj#4Mw",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What are some benefits of using a software-defined network (SDN)?",
+                "Benefits include:<br>Consistent Network Security<br>Centralized Provisioning<br>Faster Deployments of new features/services<br>Programmability for automation"
+            ],
+            "guid": "t#[|*Er3Q@",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is the difference between Software-Defined Networking, and Intent-Based Networking?",
+                "<b>Intent-based Networking</b> (IBN), adds these features to <b>Software-Defined Networking</b> (SDN);<br><b>Translation:</b> Turning business intent into network policy. You define intent, or \"what\", and the system determines the \"how\", checking existing policies for conflicts, and implementing changes as needed.<br><b>Activation:</b> Upon approval, autonomously deploys policy to network configurations in the environment.<br><b>Assurance: </b>Continuous verification of network health and status maintains network health and recommends fix-actions to operators if any are needed."
+            ],
+            "guid": "d~[Y$7L|93",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What are the 5 principles of Infrastructure as Code (IaC)?",
+                "They are;<br><b>Store</b> your code in a repository as a backup of network configuration.<br><b>Evolve</b> your code as your network changes over time.<br><b>Collaborate</b> within your organization and with the world via open-source projects.<br><b>Version</b> your code with GIT or other tools.<br><b>Repeat</b>, refactor your code to make it more efficient, more reusable, and more extensible!<br>"
+            ],
+            "guid": "kcy9$WhXo&",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
             ]
         }
     ]
