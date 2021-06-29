@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Automation"
+                "Basics"
             ],
             "tmpls": [
                 {
@@ -356,6 +356,7 @@
             "guid": "AMV+2^EbVE",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python",
                 "shell"
             ]
@@ -369,6 +370,7 @@
             "guid": "j=91=WSs[}",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -381,6 +383,7 @@
             "guid": "CHivyo5cY>",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -393,6 +396,7 @@
             "guid": "Npv5K^K5&C",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -405,6 +409,7 @@
             "guid": "B|SG<A$^iY",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -417,6 +422,7 @@
             "guid": "D?W66ea<BS",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -429,6 +435,7 @@
             "guid": "O~!m#!X|ux",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -441,6 +448,7 @@
             "guid": "d5b{u|x~sC",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -453,6 +461,7 @@
             "guid": "J:GNyY[Q`~",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
+                "Basics",
                 "python"
             ]
         },
@@ -1069,6 +1078,78 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is Chef?",
+                "Chef is a procedural automation tool that uses a piecemeal approach to configuration management. Single operations are a \"Recipe\", a collection of operations a \"Cookbook\".<br><br>It leverages the programming language Ruby, and so can have a steep learning curve. However that also means it can be very flexible. It also doesn't support PUSH functionality, and requires deployed chef agents to pull configuration."
+            ],
+            "guid": "IVe$]Y@yfw",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is Procedural programming?",
+                "<b>Procedural programming</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>, derived from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative programming</a>,<sup><a href=\"https://en.wikipedia.org/wiki/Procedural_programming#cite_note-1\">[1]</a></sup>&nbsp;based on the concept of the&nbsp;<i><a href=\"https://en.wikipedia.org/wiki/Procedure_call\">procedure call</a></i>. Procedures (a type of routine or&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subroutine\">subroutine</a>) simply contain a series of computational steps to be carried out. Any given procedure might be called at any point during a program's execution, including by other procedures or itself. The first major procedural programming languages appeared circa 1957–1964, including&nbsp;<a href=\"https://en.wikipedia.org/wiki/Fortran\">Fortran</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/ALGOL\">ALGOL</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/COBOL\">COBOL</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/PL/I\">PL/I</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/BASIC\">BASIC</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Procedural_programming#cite_note-:0-2\">[2]</a></sup>&nbsp; <a href=\"https://en.wikipedia.org/wiki/Pascal_(programming_language)\">Pascal</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/C_(programming_language)\">C</a>&nbsp;were published circa 1970–1972."
+            ],
+            "guid": "Iq2ldo6~ld",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is the Imperative programming paradigm?",
+                "<div>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>imperative programming</b>&nbsp;is a&nbsp;&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>&nbsp;that uses&nbsp;<a href=\"https://en.wikipedia.org/wiki/Statement_(computer_science)\">statements</a>&nbsp;that change a program's&nbsp;<a href=\"https://en.wikipedia.org/wiki/State_(computer_science)\">state</a>. In much the same way that the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_mood\">imperative mood</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Natural_language\">natural languages</a>&nbsp;expresses commands, an imperative program consists of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Command_(computing)\">commands</a>&nbsp;for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer\">computer</a>&nbsp;to perform. Imperative programming focuses on describing&nbsp;<i>how</i>&nbsp;a program operates.</div><div>The term is often used in contrast to&nbsp;<a href=\"https://en.wikipedia.org/wiki/Declarative_programming\">declarative programming</a>, which focuses on&nbsp;<i>what</i>&nbsp;the program should accomplish without specifying&nbsp;<i>how</i>&nbsp;the program should achieve the result.<br><br>Procedural and Object-oriented programming are derived from Imperative programming.</div>"
+            ],
+            "guid": "P?7JCJG$v_",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is the Declarative programming paradigm?",
+                "<div>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>declarative programming</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>—a style of building the structure and elements of computer programs—that expresses the logic of a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computation\">computation</a>&nbsp;without describing its&nbsp;<a href=\"https://en.wikipedia.org/wiki/Control_flow\">control flow</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-1\">[1]</a></sup></div><div>Many languages that apply this style attempt to minimize or eliminate&nbsp;<a href=\"https://en.wikipedia.org/wiki/Side_effect_(computer_science)\">side effects</a>&nbsp;by describing&nbsp;<i>what</i>&nbsp;the program must accomplish in terms of the&nbsp;<a href=\"https://en.wikipedia.org/w/index.php?title=Problem_domain&amp;action=edit&amp;redlink=1\">problem domain</a>, rather than describe&nbsp;<i>how</i>&nbsp;to accomplish it as a sequence of the programming&nbsp;<a href=\"https://en.wikipedia.org/wiki/Language_primitive\">language primitives</a><sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-FOLDOC_2004-2\">[2]</a></sup>&nbsp;(the&nbsp;<i>how</i>&nbsp;being left up to the language's&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_language_implementation\">implementation</a>). This is in contrast with&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative programming</a>, which implements&nbsp;<a href=\"https://en.wikipedia.org/wiki/Algorithm\">algorithms</a>&nbsp;in explicit steps.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-Sebesta_2016-3\">[3]</a></sup></div>"
+            ],
+            "guid": "OqGp~lZ8h~",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is Object-oriented Programming?",
+                "<div><b><a href=\"https://en.wikipedia.org/wiki/Object_(computer_science)\">Object</a>-oriented programming</b>&nbsp;(<b>OOP</b>) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>&nbsp;based on the concept of \"<a href=\"https://en.wikipedia.org/wiki/Object_(computer_science)\">objects</a>\", which can contain&nbsp;<a href=\"https://en.wikipedia.org/wiki/Data\">data</a>&nbsp;and code: data in the form of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Field_(computer_science)\">fields</a>&nbsp;(often known as&nbsp;<i>attributes</i>&nbsp;or&nbsp;<i>properties</i>), and code, in the form of procedures (often known as&nbsp;<i><a href=\"https://en.wikipedia.org/wiki/Method_(computer_science)\">methods</a></i>).&nbsp;</div><div>A feature of objects is that an object's own procedures can access and often modify the data fields of itself (objects have a notion of&nbsp;<a href=\"https://en.wikipedia.org/wiki/This_(computer_programming)\"><code><span style=\"font-weight: bold;\">this</span></code></a>&nbsp;or&nbsp;<code><span style=\"font-weight: bold;\">self</span></code>). In OOP, computer programs are designed by making them out of objects that interact with one another.<sup><a href=\"https://en.wikipedia.org/wiki/Object-oriented_programming#cite_note-1\">[1]</a></sup><sup><a href=\"https://en.wikipedia.org/wiki/Object-oriented_programming#cite_note-2\">[2]</a></sup>&nbsp;OOP languages are diverse, but the most popular ones are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Class-based_programming\">class-based</a>, meaning that objects are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Instance_(computer_science)\">instances</a>&nbsp;of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Class_(computer_science)\">classes</a>, which also determine their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Data_type\">types</a>.</div>"
+            ],
+            "guid": "[<qdd!Ex=",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is Functional Programming?",
+                "<div>n&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>functional programming</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>&nbsp;where programs are constructed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Function_application\">applying</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Function_composition_(computer_science)\">composing</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Function_(computer_science)\">functions</a>. It is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Declarative_programming\">declarative programming</a>&nbsp;paradigm in which function definitions are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tree_(data_structure)\">trees</a>&nbsp;of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Expression_(computer_science)\">expressions</a>&nbsp;that map&nbsp;<a href=\"https://en.wikipedia.org/wiki/Value_(computer_science)\">values</a>&nbsp;to other values, rather than a sequence of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Statement_(computer_science)\">statements</a>&nbsp;which update the&nbsp;<a href=\"https://en.wikipedia.org/wiki/State_(computer_science)\">running state</a>&nbsp;of the program.</div><div>In functional programming, functions are treated as&nbsp;<a href=\"https://en.wikipedia.org/wiki/First-class_citizen\">first-class citizens</a>, meaning that they can be bound to names (including local&nbsp;<a href=\"https://en.wikipedia.org/wiki/Identifier_(computer_languages)\">identifiers</a>), passed as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Parameter_(computer_programming)\">arguments</a>, and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Return_value\">returned</a>&nbsp;from other functions, just as any other&nbsp;<a href=\"https://en.wikipedia.org/wiki/Data_type\">data type</a>&nbsp;can. This allows programs to be written in a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Declarative_programming\">declarative</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Composability\">composable</a>style, where small functions are combined in a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Modular_programming\">modular</a>&nbsp;manner.</div>"
+            ],
+            "guid": "n}}yoz[I:L",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
             ]
         }
     ]
