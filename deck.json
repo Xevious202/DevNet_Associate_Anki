@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Basics"
+                "Automation"
             ],
             "tmpls": [
                 {
@@ -1084,7 +1084,7 @@
             "__type__": "Note",
             "fields": [
                 "Automation: What is Chef?",
-                "Chef is a procedural automation tool that uses a piecemeal approach to configuration management. Single operations are a \"Recipe\", a collection of operations a \"Cookbook\".<br><br>It leverages the programming language Ruby, and so can have a steep learning curve. However that also means it can be very flexible. It also doesn't support PUSH functionality, and requires deployed chef agents to pull configuration."
+                "Chef is a procedural automation tool that uses a piecemeal approach to configuration management. Single operations/resources are described with a \"Recipe\". A collection of operations, more general concepts, a \"Cookbook\". It operates with a server-client architecture where configuration is pulled by the client.<br><br>It leverages the programming language Ruby, and so can have a steep learning curve. However that also means it can be very flexible. It does not support PUSH functionality.<br><br>Summary: Using Chef is like programming the control of your nodes."
             ],
             "guid": "IVe$]Y@yfw",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1108,7 +1108,7 @@
             "__type__": "Note",
             "fields": [
                 "Basics: What is the Imperative programming paradigm?",
-                "<div>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>imperative programming</b>&nbsp;is a&nbsp;&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>&nbsp;that uses&nbsp;<a href=\"https://en.wikipedia.org/wiki/Statement_(computer_science)\">statements</a>&nbsp;that change a program's&nbsp;<a href=\"https://en.wikipedia.org/wiki/State_(computer_science)\">state</a>. In much the same way that the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_mood\">imperative mood</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Natural_language\">natural languages</a>&nbsp;expresses commands, an imperative program consists of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Command_(computing)\">commands</a>&nbsp;for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer\">computer</a>&nbsp;to perform. Imperative programming focuses on describing&nbsp;<i>how</i>&nbsp;a program operates.</div><div>The term is often used in contrast to&nbsp;<a href=\"https://en.wikipedia.org/wiki/Declarative_programming\">declarative programming</a>, which focuses on&nbsp;<i>what</i>&nbsp;the program should accomplish without specifying&nbsp;<i>how</i>&nbsp;the program should achieve the result.<br><br>Procedural and Object-oriented programming are derived from Imperative programming.</div>"
+                "<div>Summary: The imperative approach defines a set of commands that have to be executed in a certain order for the system to achieve the desired state.<br><br><br>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>imperative programming</b>&nbsp;is a&nbsp;&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>&nbsp;that uses&nbsp;<a href=\"https://en.wikipedia.org/wiki/Statement_(computer_science)\">statements</a>&nbsp;that change a program's&nbsp;<a href=\"https://en.wikipedia.org/wiki/State_(computer_science)\">state</a>. In much the same way that the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_mood\">imperative mood</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Natural_language\">natural languages</a>&nbsp;expresses commands, an imperative program consists of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Command_(computing)\">commands</a>&nbsp;for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer\">computer</a>&nbsp;to perform. Imperative programming focuses on describing&nbsp;<i>how</i>&nbsp;a program operates.</div><div>The term is often used in contrast to&nbsp;<a href=\"https://en.wikipedia.org/wiki/Declarative_programming\">declarative programming</a>, which focuses on&nbsp;<i>what</i>&nbsp;the program should accomplish without specifying&nbsp;<i>how</i>&nbsp;the program should achieve the result.<br><br>Procedural and Object-oriented programming are derived from Imperative programming.</div>"
             ],
             "guid": "P?7JCJG$v_",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1120,7 +1120,7 @@
             "__type__": "Note",
             "fields": [
                 "Basics: What is the Declarative programming paradigm?",
-                "<div>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>declarative programming</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>—a style of building the structure and elements of computer programs—that expresses the logic of a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computation\">computation</a>&nbsp;without describing its&nbsp;<a href=\"https://en.wikipedia.org/wiki/Control_flow\">control flow</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-1\">[1]</a></sup></div><div>Many languages that apply this style attempt to minimize or eliminate&nbsp;<a href=\"https://en.wikipedia.org/wiki/Side_effect_(computer_science)\">side effects</a>&nbsp;by describing&nbsp;<i>what</i>&nbsp;the program must accomplish in terms of the&nbsp;<a href=\"https://en.wikipedia.org/w/index.php?title=Problem_domain&amp;action=edit&amp;redlink=1\">problem domain</a>, rather than describe&nbsp;<i>how</i>&nbsp;to accomplish it as a sequence of the programming&nbsp;<a href=\"https://en.wikipedia.org/wiki/Language_primitive\">language primitives</a><sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-FOLDOC_2004-2\">[2]</a></sup>&nbsp;(the&nbsp;<i>how</i>&nbsp;being left up to the language's&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_language_implementation\">implementation</a>). This is in contrast with&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative programming</a>, which implements&nbsp;<a href=\"https://en.wikipedia.org/wiki/Algorithm\">algorithms</a>&nbsp;in explicit steps.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-Sebesta_2016-3\">[3]</a></sup></div>"
+                "<div>Summary: The desired state of the system is defined, then the system executes all the steps that need to happen in order to attain the desired state.<br><br><br>In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>,&nbsp;<b>declarative programming</b>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming paradigm</a>—a style of building the structure and elements of computer programs—that expresses the logic of a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computation\">computation</a>&nbsp;without describing its&nbsp;<a href=\"https://en.wikipedia.org/wiki/Control_flow\">control flow</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-1\">[1]</a></sup></div><div>Many languages that apply this style attempt to minimize or eliminate&nbsp;<a href=\"https://en.wikipedia.org/wiki/Side_effect_(computer_science)\">side effects</a>&nbsp;by describing&nbsp;<i>what</i>&nbsp;the program must accomplish in terms of the&nbsp;<a href=\"https://en.wikipedia.org/w/index.php?title=Problem_domain&amp;action=edit&amp;redlink=1\">problem domain</a>, rather than describe&nbsp;<i>how</i>&nbsp;to accomplish it as a sequence of the programming&nbsp;<a href=\"https://en.wikipedia.org/wiki/Language_primitive\">language primitives</a><sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-FOLDOC_2004-2\">[2]</a></sup>&nbsp;(the&nbsp;<i>how</i>&nbsp;being left up to the language's&nbsp;<a href=\"https://en.wikipedia.org/wiki/Programming_language_implementation\">implementation</a>). This is in contrast with&nbsp;<a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative programming</a>, which implements&nbsp;<a href=\"https://en.wikipedia.org/wiki/Algorithm\">algorithms</a>&nbsp;in explicit steps.<sup><a href=\"https://en.wikipedia.org/wiki/Declarative_programming#cite_note-Sebesta_2016-3\">[3]</a></sup></div>"
             ],
             "guid": "OqGp~lZ8h~",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1150,6 +1150,54 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is Puppet?",
+                "Puppet is a declarative automation tool that describes system configurations. It uses language similar to JSON or XML. You describe the resource's state but cannot intervene in how that state is achieved. Single resources are described with a \"Manifest\", general concepts are described with \"Modules\". It operates with a server-client architecture where configuration is pulled by the client.<br><br>It leverages the programming language Ruby, but does not require advanced features.<br>Instead you get powerful reporting and a complete UI, though advanced tasks require Ruby in the CLI.<br><br>Summary: Using Puppet is like writing configuration files."
+            ],
+            "guid": "g.}E47G1)G",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is Ansible?",
+                "Ansible is a declarative automation tool that describes system configurations. It uses YAML files that are both human and machine readable. It uses a model-based approach to describing how components and systems are related. single resources / operations are described with \"Modules. General concepts or tasks are described in \"Playbooks\". It operates agentless, by pushing configuration from the host, \"engine\", to clients. It uses an \"Inventory\" file to identify client targets.<br><br>It is written in the programming language Python, but most tasks do not require coding experience. Ansible's goal is to be minimal, idempotent (when playbooks are written carefully), and easy to use.<br><br>Summary: Ansible is the gateway \"drug\" to vendor-agnostic Infrastructure-as-Code."
+            ],
+            "guid": "n$W]_*r4j]",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is Cisco Network Services Orchestrator (NSO)?",
+                "NSO is a dual-layered configuration management tool. It provides a device and service manager layer. It uses NETCONF and YANG data models. It has 4 main components, the service and device layers mentioned above, mapping logic, and a configuration database.<br><br>NSO uses Network Element Drivers (NEDs) to communicate when NETCONF isn't available southbound. Custom NEDs can be created to support other vendors or products.<br><br>Summary: NSO is a multivendor service-layer SDN controller for networks, built for network infrastructure."
+            ],
+            "guid": "fgD):b48)b",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What is Terraform?",
+                "Terraform is a declarative automation tool . It uses Hashicorp Configuration Language (HCL), or JSON. It uses \"execution plans\" to provision infrastructure. It can also use \"modules\" to make code reusable. Execution plans outline what will happen when the code is ran.<br><br>Summary: Terraform is used commonly in cloud environments."
+            ],
+            "guid": "F&*s532c>p",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
             ]
         }
     ]
