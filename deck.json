@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Automation"
+                "Ansible"
             ],
             "tmpls": [
                 {
@@ -1198,6 +1198,90 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What does Idempotency mean?",
+                "<a href=\"https://en.wikipedia.org/wiki/Idempotence\">Idempotence</a> is the property of certain&nbsp;<a href=\"https://en.wikipedia.org/wiki/Operation_(mathematics)\">operations</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mathematics\">mathematics</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Computer_science\">computer science</a>&nbsp;whereby they can be applied multiple times without changing the result beyond the initial application."
+            ],
+            "guid": "Q7udph|`^w",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What does CRUD mean with respect to RESTful APIs?",
+                "<br><table><tbody><tr><th>CRUD</th><th>HTTP</th></tr><tr><td>Create</td><td><a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\">PUT</a></td></tr><tr><td>Read</td><td><a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\">GET</a></td></tr><tr><td>Update</td><td><a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\">PUT</a></td></tr><tr><td>Delete</td><td><a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\">DELETE</a></td></tr></tbody></table><br><div>In HTTP, the GET (read), PUT (create and update), and DELETE (delete) methods are CRUD operations as they have storage management semantics, meaning that they let&nbsp;<a href=\"https://en.wikipedia.org/wiki/User_agent\">user agents</a>&nbsp;directly manipulate the states of target&nbsp;<a href=\"https://en.wikipedia.org/wiki/Web_resource\">resources</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Create,_read,_update_and_delete#cite_note-2\">[2]</a></sup>&nbsp;The&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\">POST</a>&nbsp;method on the other hand is a process operation that has target-resource-specific semantics excluding the semantics of CRUD operations.<sup><a href=\"https://en.wikipedia.org/wiki/Create,_read,_update_and_delete#cite_note-it-is-okay-to-use-post-3\">[3]</a></sup></div><br>"
+            ],
+            "guid": "qQR3E&Y?cZ",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ansible: What is an Module?",
+                "Modules (also referred to as “task plugins” or “library plugins”) are discrete units of code that can be used from the command line or in a playbook task. Ansible executes each module, usually on the remote managed node, and collects return values. In Ansible 2.10 and later, most modules are hosted in collections.<br><br>Each module has a particular use, from administering users on a specific type of database to managing VLAN interfaces on a specific type of network device. You can invoke a single module with a task, or invoke several different modules in a playbook."
+            ],
+            "guid": "rdvr+f(y@v",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Ansible"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ansible: What is a Task?",
+                "Tasks are the units of action in Ansible. You can execute a single task with an ad hoc command.&nbsp;<br><br>They are the smallest unit of action you can automate with a playbook, which contain series of tasks. By default, they are ran one at a time, in order, against all target machines matched by the host pattern. Each task executes a module with specific arguments. Once a task has executed on all target machines, Ansible moves onto the next task."
+            ],
+            "guid": "eX1Hd~1ts4",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Ansible"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ansible: What is a Play?",
+                "Each Playbook is composed of one or more 'plays' in a list.&nbsp;<br><br><div>The goal of a play is to map a group of hosts to some well defined roles, represented by things ansible calls tasks. At a basic level, a task is nothing more than a call to an ansible module.<br><br></div><div>By composing a playbook of multiple ‘plays’, it is possible to orchestrate multi-machine deployments, running certain steps on all machines in the webservers group, then certain steps on the database server group, then more commands back on the webservers group, etc.<br><br></div><div>“Plays” are more or less a sports analogy. You can have quite a lot of plays that affect your systems to do different things. It’s not as if you were just defining one particular state or model, and you can run different plays at different times.</div><br>"
+            ],
+            "guid": "yCamOUwEKF",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Ansible"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ansible: What is a Playbook?",
+                "Playbooks can declare configurations, but they can also orchestrate steps of any manual ordered process, even as different steps must bounce back and forth between sets of machines in particular orders. They can launch tasks synchronously or asynchronously.<br><br>Playbooks are expressed in YAML format (see&nbsp;<a href=\"https://docs.ansible.com/ansible/2.9/reference_appendices/YAMLSyntax.html#yaml-syntax\">YAML Syntax</a>) and have a minimum of syntax, which intentionally tries to not be a programming language or script, but rather a model of a configuration or a process.<br><br>For each play in a playbook, you get to choose which machines in your infrastructure to target and what remote user to complete the steps (called tasks)"
+            ],
+            "guid": "L[T>Ej:l}c",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Ansible"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ansible: What is a Role?",
+                "<div>Roles are a set of playbooks, often prebuilt, used to execute a standard configuration in a repeatable manner.<br><br>Roles are ways of automatically loading certain vars_files, tasks, and handlers based on a known file structure. Grouping content by roles also allows easy sharing of roles with other users. Multiple roles can be assigned to a single host.</div><div><br><br></div>"
+            ],
+            "guid": "D.A}il-IFC",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Ansible"
             ]
         }
     ]

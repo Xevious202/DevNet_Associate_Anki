@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 87 Cards Total
+# Exam Blueprint | 94 Cards Total
 ### 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -81,7 +81,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 4.11 Utilize Bash commands (file management, directory navigation, and environmental variables)
 - 4.12 Identify the principles of DevOps practices
 
-### 5.0 Infrastructure & Automation 20% | 16 Cards Created
+### 5.0 Infrastructure & Automation 20% | 21 Cards Created
 - 5.1 Describe the value of model driven programmability for infrastructure automation
 - 5.2 Compare controller-level to device-level management | 4 "Automation"
 - 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS) | 1 "Automation"
@@ -89,7 +89,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 5.5 Describe principles of infrastructure as code | 1 "Automation"
 - 5.6 Describe the capabilities of automation tools such as Ansible, Puppet, Chef, and Cisco NSO | 10 "Automation"
 - 5.7 Identify the workflow being automated by a Python script that uses Cisco APIs including ACI, Meraki, Cisco DNA Center, or RESTCONF
-- 5.8 Identify the workflow being automated by an Ansible playbook (management packages, user management related to services, basic service configuration, and start/stop)
+- 5.8 Identify the workflow being automated by an Ansible playbook (management packages, user management related to services, basic service configuration, and start/stop) | 5 "Ansible"
 - 5.9 Identify the workflow being automated by a bash script (such as file management, app install, user management, directory navigation)
 - 5.10 Interpret the results of a RESTCONF or NETCONF query
 - 5.11 Interpret basic YANG models
@@ -108,15 +108,18 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 6.8 Identify cause of application connectivity issues (NAT problem, Transport Port blocked, proxy, and VPN)
 - 6.9 Explain the impacts of network constraints on applications
 
-### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 14 Cards Created
-- Python Basics | 9 "python", "shell", "Basics"
+### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 16 Cards Created
+- Python | 9 "python", "shell", "Basics"
   - Compare Sets
   - Data Types
   - Importing Modules
   - REPL
-- Programming Basics | 5 "Basics"
+- Programming Types | 5 "Basics"
   - Imperative Paradigm: Procedural, and Object-oriented Programming
   - Declarative Paradigm: Functional Programming
+- Terminology | 2 "Basics"
+  - Idempotency
+  - CRUD
 
 ## License
 
