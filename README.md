@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 94 Cards Total
+# Exam Blueprint | 100 Cards Total
 ### 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -64,14 +64,14 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 3.9.b Manage spaces, participants, and messages in Webex Teams
   - 3.9.c Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
 
-### 4.0 Application Deployment & Security 15% | No Cards Created
+### 4.0 Application Deployment & Security 15% | 4 Cards Created
 - 4.1 Describe benefits of edge computing
 - 4.2 Identify attributes of different application deployment models (private cloud, public cloud, hybrid cloud, and edge)
 - 4.3 Identify the attributes of these application deployment types
   - 4.3.a Virtual machines
   - 4.3.b Bare metal
   - 4.3.c Containers
-- 4.4 Describe components for a CI/CD pipeline in application deployments
+- 4.4 Describe components for a CI/CD pipeline in application deployments | 4 "Deployment"
 - 4.5 Construct a Python unit test
 - 4.6 Interpret contents of a Dockerfile
 - 4.7 Utilize Docker images in local developer environment
@@ -108,7 +108,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 6.8 Identify cause of application connectivity issues (NAT problem, Transport Port blocked, proxy, and VPN)
 - 6.9 Explain the impacts of network constraints on applications
 
-### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 16 Cards Created
+### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 18 Cards Created
 - Python | 9 "python", "shell", "Basics"
   - Compare Sets
   - Data Types
@@ -117,9 +117,10 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - Programming Types | 5 "Basics"
   - Imperative Paradigm: Procedural, and Object-oriented Programming
   - Declarative Paradigm: Functional Programming
-- Terminology | 2 "Basics"
+- Terminology | 4 "Basics"
   - Idempotency
   - CRUD
+  - Semantic and Syntax errors
 
 ## License
 

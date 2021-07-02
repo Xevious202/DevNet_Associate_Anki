@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Ansible"
+                "Basics"
             ],
             "tmpls": [
                 {
@@ -1282,6 +1282,78 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Ansible"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is a Unit Test?<br>",
+                "Unit tests are typically&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automated_test\">automated tests</a>&nbsp;written and run by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Software_developer\">software developers</a>&nbsp;to ensure that a section of an application (known as the \"unit\") meets its&nbsp;<a href=\"https://en.wikipedia.org/wiki/Software_design\">design</a>&nbsp;and behaves as intended.<sup><a href=\"https://en.wikipedia.org/wiki/Unit_testing#cite_note-hamill-2\">[2]</a></sup>&nbsp;In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Procedural_programming\">procedural programming</a>, a unit could be an entire module, but it is more commonly an individual function or procedure. In&nbsp;<a href=\"https://en.wikipedia.org/wiki/Object-oriented_programming\">object-oriented programming</a>, a unit is often an entire interface, such as a class, or an individual method.<sup><a href=\"https://en.wikipedia.org/wiki/Unit_testing#cite_note-3\">[3]</a></sup>&nbsp;By writing tests first for the smallest testable units, then the compound behaviors between those, one can build up comprehensive tests for complex applications.<sup><a href=\"https://en.wikipedia.org/wiki/Unit_testing#cite_note-hamill-2\">[2]</a><br></sup><br>A good unit test is Reliable, Isolated, Fast, and Readable."
+            ],
+            "guid": "d}YHxv<P%Z",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is an Integration Test?",
+                "<b>Integration testing</b>&nbsp;(sometimes called&nbsp;<b>integration and testing</b>, abbreviated&nbsp;<b>I&amp;T</b>) is the phase in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Software_testing\">software testing</a>&nbsp;in which individual software modules are combined and tested as a group. Integration testing is conducted to evaluate the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Regulatory_compliance\">compliance</a>&nbsp;of a system or component with specified&nbsp;<a href=\"https://en.wikipedia.org/wiki/Functional_requirement\">functional requirements</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Integration_testing#cite_note-1\">[1]</a></sup>&nbsp;It occurs after&nbsp;<a href=\"https://en.wikipedia.org/wiki/Unit_testing\">unit testing</a>&nbsp;and before&nbsp;<a href=\"https://en.wikipedia.org/wiki/Software_verification_and_validation\">validation testing</a>. Integration testing takes as its input&nbsp;<a href=\"https://en.wikipedia.org/wiki/Module_(programming)\">modules</a>&nbsp;that have been unit tested, groups them in larger aggregates, applies tests defined in an integration&nbsp;<a href=\"https://en.wikipedia.org/wiki/Test_plan\">test plan</a>&nbsp;to those aggregates, and delivers as its output the integrated system ready for&nbsp;<a href=\"https://en.wikipedia.org/wiki/System_testing\">system testing</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Integration_testing#cite_note-2\">[2]</a><br></sup><br>There are two approaches, Big Bang (all actual components tested when finished), and Incremental (component tested while others are incomplete, this requires \"Doubles\" that replace dependancies and abstract some of their aspects)."
+            ],
+            "guid": "x#;io<-8[.",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is a System Test?",
+                "<div><b>System testing</b>&nbsp;is testing conducted on a complete integrated system to evaluate the system's compliance with its specified&nbsp;<a href=\"https://en.wikipedia.org/wiki/Requirements\">requirements</a>.<sup>[<i><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\">citation needed</a></i>]</sup></div><div>System testing takes, as its input, all of the integrated components that have passed&nbsp;<a href=\"https://en.wikipedia.org/wiki/Integration_testing\">integration testing</a>. The purpose of integration testing is to detect any inconsistencies between the units that are integrated together (called&nbsp;<i>assemblages</i>). System testing seeks to detect defects both within the \"inter-assemblages\" and also within the system as a whole.<sup>[<i><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\">citation needed</a></i>]</sup>&nbsp;The actual result is the behavior produced or observed when a component or system is tested.<sup><a href=\"https://en.wikipedia.org/wiki/System_testing#cite_note-1\">[1]</a></sup></div><div>System testing is performed on the entire system in the context of either&nbsp;<a href=\"https://en.wikipedia.org/wiki/Functional_requirements\">functional requirement</a>&nbsp;specifications (FRS) or&nbsp;<a href=\"https://en.wikipedia.org/wiki/Requirements_analysis\">system requirement</a>&nbsp;specification (SRS), or both. System testing tests not only the design, but also the behaviour and even the believed expectations of the customer. It is also intended to test up to and beyond the bounds defined in the software or hardware requirements specification(s).<sup>[<i><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\">citation needed</a></i>]<br><br></sup>There are many types of system tests that can be conducted, Functionality, Stress, Regression, Security, etc.<sup><br></sup></div>"
+            ],
+            "guid": "u*piLstRH5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is Acceptance Testing?",
+                "<div>Formal testing with respect to user needs, requirements, and business processes conducted to determine whether a system satisfies the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Acceptance_criteria\">acceptance criteria</a><sup><a href=\"https://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2\">[2]</a></sup>&nbsp;and to enable the user, customers or other authorized entity to determine whether to accept the system.</div><div>— Standard Glossary of Terms used in Software Testing<sup><a href=\"https://en.wikipedia.org/wiki/Acceptance_testing#cite_note-3\">[3]</a></sup><sup>:2<br><br></sup>There are a few types of Acceptance Testing, Alpha, Beta, Contract, Regulation, and Operational.<sup><br></sup></div>"
+            ],
+            "guid": "qC./VL:.Dl",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is a Semantic error in programming?",
+                "<div>If there is a semantic error in your program, it will run successfully in the sense that the computer will not generate any error messages. However, your program will not do the right thing. It will do something else.&nbsp;Specifically, it will do what you told it to do.</div><div>The problem is that the&nbsp;program you wrote is not the program you wanted to write. The meaning of the program (its semantics) is wrong. Identifying semantic errors can be tricky because it requires you to work backward by looking at the output of the program and trying to figure out what it is doing.<br><br>Src:&nbsp;<a href=\"https://runestone.academy/runestone/books/published/thinkcspy/GeneralIntro/SemanticErrors.html\">https://runestone.academy/runestone/books/published/thinkcspy/GeneralIntro/SemanticErrors.html</a><br><br><br></div>"
+            ],
+            "guid": "gDmZF5tOq}",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basics: What is a Syntax error in programming?",
+                "<div>Python can only execute a program if the program is syntactically correct; otherwise, the process fails&nbsp;and returns an error message.&nbsp;&nbsp;<strong>Syntax</strong>&nbsp;refers to the structure of a program and the rules about that structure.For example, in English, a sentence must begin with a capital letter and end with a period. this sentence contains a&nbsp;<strong>syntax error</strong>. So does this&nbsp;one</div><div>For most readers, a few syntax errors are not a significant problem, which is why we can read the poetry of e. e. cummings without&nbsp;problems. Python is not so forgiving.&nbsp;If there is a single syntax error anywhere in your program, Python will display an error message and quit. You will not be able to complete the execution of your program. During the first few weeks of your programming career, you will probably spend a lot of time tracking down syntax errors. However, as you gain experience, you will make fewer errors and you will also be able to find your errors faster.<br><br>Src:&nbsp;<a href=\"https://runestone.academy/runestone/books/published/thinkcspy/GeneralIntro/Syntaxerrors.html\">https://runestone.academy/runestone/books/published/thinkcspy/GeneralIntro/Syntaxerrors.html</a></div>"
+            ],
+            "guid": "BKY4-*@zBh",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics"
             ]
         }
     ]
