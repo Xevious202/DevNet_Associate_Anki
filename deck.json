@@ -107,7 +107,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "Basics"
+                "Python",
+                "Deployment"
             ],
             "tmpls": [
                 {
@@ -1354,6 +1355,58 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Basics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: What are two commonly used testing frameworks?",
+                "Unittest and Pytest, both are simply imported into your script."
+            ],
+            "guid": "xjTOvh^@/W",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: What is a Decorator?",
+                "A decorator is a directive placed just before a function definition that Python applies to the function before it runs, to alter how the function code behaves.<br><br>More:&nbsp;<a href=\"https://realpython.com/primer-on-python-decorators/\">https://realpython.com/primer-on-python-decorators/</a>"
+            ],
+            "guid": "l&h5+^;9qJ",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Basics",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: What is unittest? What are the 4 concepts of Unit testing?",
+                "It is a Unit testing framework. It is included in the python standard library (doesn't need to be installed seperately). It requires classes, and uses the base class TestClass. It supports the following concepts in an object-oriented way;<br><br><b>Test Fixture:</b> Represents the preparation needed to perform one or more tests and any cleanup actions. E.g. Creating temporary or proxy databases, directories, or server starting processes.<br><br><b>Test Case: </b>The individual unit of testing. It checks for a specific response to a particular set of inputs. unittest provides a base class, TestCase, which may be used to create new test cases.<br><br><b>Test Suite:</b> A collection of test cases, test suites, or both. It is used to aggregate tests that should be executed together.<br><br><b>Test Runner: </b>A component which orchestrates the execution of tests and provides the outcome to the user. The runner may use a graphical interface, a textual interface, or return a special value to indicate the results of executing the tests.<br><br>Src:&nbsp;<a href=\"https://docs.python.org/3/library/unittest.html\">https://docs.python.org/3/library/unittest.html</a>"
+            ],
+            "guid": "Ju%54q;(1K",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Python: What is pytest? What are the 4 concepts of Unit testing?",
+                "<i>pytest </i>is a mature full-featured Python testing tool framework that makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. Only plain assert statements are used, thanks to detailed assertion introspection. It can also run <i>unittest </i>and <i>nose</i> test suites out of the box. It is NOT included in the python standard library and must be installed seperately. After installation, \"pytest\" is ran from shell. It looks for all files labeled \"test_*\" and runs them.<br><br><b>Test Fixture:</b>&nbsp;Represents the preparation needed to perform one or more tests and any cleanup actions. E.g. Creating temporary or proxy databases, directories, or server starting processes.<br><br><b>Test Case:&nbsp;</b>The individual unit of testing. It checks for a specific response to a particular set of inputs. unittest provides a base class, TestCase, which may be used to create new test cases.<br><br><b>Test Suite:</b>&nbsp;A collection of test cases, test suites, or both. It is used to aggregate tests that should be executed together.<br><br><b>Test Runner:&nbsp;</b>A component which orchestrates the execution of tests and provides the outcome to the user. The runner may use a graphical interface, a textual interface, or return a special value to indicate the results of executing the tests.<br><br>More:&nbsp;<a href=\"https://docs.pytest.org/en/6.2.x/getting-started.html\">https://docs.pytest.org/en/6.2.x/getting-started.html</a>"
+            ],
+            "guid": "QjXwbx:Z~5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment",
+                "python"
             ]
         }
     ]
