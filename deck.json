@@ -56,6 +56,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
+        "0HjdtiboXAWgWFFFS.png",
         "436px-MVC-Process.svg.png",
         "640px-Waterfall_model.png",
         "7-lean-principles.png",
@@ -65,7 +66,10 @@
         "HTTP-Redirectional.png",
         "HTTP-Server_Error.png",
         "HTTP-Success.png",
-        "agile-sdlc2.png"
+        "SQL-injection-attack-example.png",
+        "agile-sdlc2.png",
+        "csrf-cross-site-request-forgery.png",
+        "sorted-XSS.png"
     ],
     "mid": 1623966180796,
     "name": "DevNet Associate",
@@ -107,7 +111,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Containers"
+                "Security"
             ],
             "tmpls": [
                 {
@@ -1666,7 +1670,7 @@
             "__type__": "Note",
             "fields": [
                 "Containers: How do you obtain a Docker image from a registry?",
-                "<b style=\"font-style: italic;\">docker image pull </b><span style=\"font-style: italic;\">&lt;Name[:TAG|@DIGEST]&gt;</span><br><br>Pulls an image or a repository from a registry.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/pull/\">https://docs.docker.com/engine/reference/commandline/pull/</a>"
+                "<b style=\"font-style: italic;\">docker image pull </b><span style=\"font-style: italic;\">&lt;Name[:TAG|@DIGEST]&gt;<br></span>OLD: <b><i>docker pull</i></b><br><br>Pulls an image or a repository from a registry.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/pull/\">https://docs.docker.com/engine/reference/commandline/pull/</a>"
             ],
             "guid": "s)tzqg^fQK",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1810,12 +1814,84 @@
             "__type__": "Note",
             "fields": [
                 "Containers: How would you push a Docker image to a registry?",
-                "<b style=\"font-style: italic;\">docker image push </b><i>&lt;NAME&gt;[:TAG]</i><br><br>Pushes an image or repository to a registry. Progress bars show uncompressed data, which is compressed before sending.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_push/\">https://docs.docker.com/engine/reference/commandline/image_push/</a>"
+                "<b style=\"font-style: italic;\">docker image push </b><i>&lt;NAME&gt;[:TAG]</i><br>OLD:<b><i> docker push</i></b><br><br>Pushes an image or repository to a registry. Progress bars show uncompressed data, which is compressed before sending.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_push/\">https://docs.docker.com/engine/reference/commandline/image_push/</a>"
             ],
             "guid": "EFFz%?2k1-",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you see detailed information on a given Docker Container?",
+                "<b><i>docker container inspect</i> </b><i>&lt;CONTAINER&gt;</i><br>OLD: <b style=\"font-style: italic;\">docker inspect</b><br><br>Provides detailed information on constructs controlled by Docker, by default as a JSON array.<br><br>Note: docker image &amp; network inspect is also useful.<br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_inspect/\">https://docs.docker.com/engine/reference/commandline/container_inspect/</a>"
+            ],
+            "guid": "hdCxNmru7$",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is OWASP?",
+                "The Open Web Application Security Project is an online community that produces free information in the filed of web application security.&nbsp; Their \"Top Ten\" list of vulnerabilities is referenced by many organizations, to include:<br>MITRE (a federally funded R&amp;D group), <br>PCI DSS (Payment Card Industry Data Security Standard), <br>DISA STIG (Defense Information Systems Agency Security Technical Implementation Guide), <br>FTC (Federal Trade Commission)<br><br>src:&nbsp;<a href=\"https://en.wikipedia.org/wiki/OWASP\">https://en.wikipedia.org/wiki/OWASP</a>"
+            ],
+            "guid": "qPN9FZsqa?",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is an XSS attack?",
+                "Cross-site scripting attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. They usually take the form of JavaScript, but can be any type of code the browser can execute.<br><br><img src=\"sorted-XSS.png\"><br><br>There are three common types;<br><b>Stored XSS</b>, where the injected script is permanently stored on the target servers (database, comment field, etc). The victim retrieves the malicious script when it requests the stored information.<br><br><b>Reflected XSS</b>, where the injected script is reflected off the web server, such as an error message. They are delivered to victims via another route such as email.<br><br><b>DOM</b> (Document Object Model) <b>Based XSS</b>, where the payload is executed as a result of modifying the DOM \"environment\" in the victim's browser used by the original client side script so it runs in an \"unexpected\" manner.<br><br><br>src:&nbsp;<a href=\"https://owasp.org/www-community/attacks/xss/\">https://owasp.org/www-community/attacks/xss/</a><br>src:&nbsp;<a href=\"https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/\">https://www.imperva.com/learn/application-security/</a>"
+            ],
+            "guid": "o4U}H~(|yC",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is SQL Injection?",
+                "A SQL injection attack consists of insertion or \"injection\" of a SQL query via the input data from the client to the application. A successful exploit can read sensitive data from the database, modify database data, execute administrative operations, recover the content of a file, and in some cases issue commands to the operating system.<br><img src=\"SQL-injection-attack-example.png\"><br><br>src:&nbsp;<a href=\"https://owasp.org/www-community/attacks/SQL_Injection\">https://owasp.org/www-community/attacks/SQL_Injection</a><br>src:&nbsp;<a href=\"https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/\">https://www.imperva.com/learn/application-security/</a>"
+            ],
+            "guid": "oW_CYQWBk7",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a CSRF attack?",
+                "Cross Site Request Forgery is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. If the victim is a normal user, a successful attack can force the user to perform state changing requests like transferring funds, changing their email, etc.&nbsp; If the victim is an administrative user, the attack can compromise the entire web application.<br><br><img src=\"csrf-cross-site-request-forgery.png\"><br><br>src:&nbsp;<a href=\"https://owasp.org/www-community/attacks/csrf\">https://owasp.org/www-community/attacks/csrf</a><br>src:&nbsp;<a href=\"https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/\">https://www.imperva.com/learn/application-security/</a>"
+            ],
+            "guid": "gb8L&_ai|*",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a SSRF attack?",
+                "Server-Side Request Forgery attack is one in which the attacker can abuse functionality on the server to read or update internal resources. The attacker can supply or modify a URL which the code running on the server will read or submit data to, and by carefully selecting URLs, the attacker may be able to read server configuration, connect to internal services, or perform POST requests directly to internal services.<br><br><img src=\"0HjdtiboXAWgWFFFS.png\"><br><br>src:&nbsp;<a href=\"https://owasp.org/www-community/attacks/Server_Side_Request_Forgery\">https://owasp.org/www-community/attacks/Server_Side_Request_Forgery</a><br>src:&nbsp;<a href=\"https://medium.com/@briskinfosec/ssrf-server-side-request-forgery-ae44ec737cb8\">https://medium.com/@briskinfosec/ssrf-server-side-request-forgery-ae44ec737cb8</a>"
+            ],
+            "guid": "A]kV=4;Ok,",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
             ]
         }
     ]
