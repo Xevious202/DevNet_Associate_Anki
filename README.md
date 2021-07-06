@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 125 Cards Total
+# Exam Blueprint | 138 Cards Total
 ## 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -64,7 +64,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 3.9.b Manage spaces, participants, and messages in Webex Teams
   - 3.9.c Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
 
-## 4.0 Application Deployment & Security 15% | 28 Cards Created
+## 4.0 Application Deployment & Security 15% | 41 Cards Created
 - 4.1 Describe benefits of edge computing
 - 4.2 Identify attributes of different application deployment models (private cloud, public cloud, hybrid cloud, and edge)
 - 4.3 Identify the attributes of these application deployment types
@@ -74,7 +74,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 4.4 Describe components for a CI/CD pipeline in application deployments | 6 "Deployment"
 - 4.5 Construct a Python unit test | 3 "Python", "Deployment"
 - 4.6 Interpret contents of a Dockerfile | 8 "Containers"
-- 4.7 Utilize Docker images in local developer environment
+- 4.7 Utilize Docker images in local developer environment | 13 "Containers"
 - 4.8 Identify application security issues related to secret protection, encryption (storage and transport), and data handling
 - 4.9 Explain how firewall, DNS, load balancers, and reverse proxy in application deployment
 - 4.10 Describe top OWASP threats (such as XSS, SQL injections, and CSRF)

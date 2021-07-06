@@ -1661,6 +1661,162 @@
             "tags": [
                 "Containers"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you obtain a Docker image from a registry?",
+                "<b style=\"font-style: italic;\">docker image pull </b><span style=\"font-style: italic;\">&lt;Name[:TAG|@DIGEST]&gt;</span><br><br>Pulls an image or a repository from a registry.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/pull/\">https://docs.docker.com/engine/reference/commandline/pull/</a>"
+            ],
+            "guid": "s)tzqg^fQK",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you build an image from the Dockerfile?",
+                "<i><b>docker image build -t</b></i>&nbsp;&lt;dockerfile:version&gt;<i>&nbsp;.<br></i>OLD:&nbsp;<b><i>docker build</i></b><br><br>Builds an image from a Dockerfile and a \"context\". A build's context is the set of files located in the specified PATH or URL. The build process can refer to any of the files in the context (e.g. a COPY instruction in the Dockerfile). The '.' at the end specifies the current directory for the build context.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/build/\">https://docs.docker.com/engine/reference/commandline/build/</a>"
+            ],
+            "guid": "MLNd!tK<@9",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you see <u>all</u> images on your local Docker Engine?",
+                "<i style=\"\"><b>docker image ls </b>-a<br></i>OLD:&nbsp;<b><i>docker ls</i></b><br><br>Lists images, -a or --all specifies all images, as the default hides intermediate images.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_ls/\">https://docs.docker.com/engine/reference/commandline/image_ls/</a>"
+            ],
+            "guid": "r/wg-0t@21",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you delete a Docker image from the local image store?",
+                "<b style=\"font-style: italic;\">docker image rm</b><i> &lt;IMAGE&gt;<br></i>OLD:&nbsp;<b><i>docker rm</i></b><br><br>Removes one or more images.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_rm/\">https://docs.docker.com/engine/reference/commandline/image_rm/</a><br>"
+            ],
+            "guid": "z&ZBR?nYXb",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you run a container from the Alpine version 3.9 image, name the running container \"web\", and expose port 5000 externally mapped inside the container to port 80?",
+                "<i><b>docker container run</b> <b>--name</b> web </i><b><i>-p </i></b><i>5000:80 alpine:3.9<br></i>OLD:&nbsp;<b><i>docker run</i></b><br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_run/\">https://docs.docker.com/engine/reference/commandline/container_run/</a>"
+            ],
+            "guid": "o>bNVB3S;P",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you list running Docker containers?",
+                "<b><i>docker container ls<br></i></b>OLD: <b><i>docker ps</i></b><br><br>Note: you can add <b><i>-a</i></b> to include stopped containers<br>Note2: <i>docker ls</i>&nbsp;is the depreciated command, but is also acceptable (for now)<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_ls/\">https://docs.docker.com/engine/reference/commandline/container_ls/</a>"
+            ],
+            "guid": "zo`/3N,o)<",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you <u>gracefully</u> stop a running Docker container?",
+                "<b style=\"font-style: italic;\">docker container stop </b><i>&lt;container name or id&gt;</i><br>OLD:&nbsp;<b><i>docker stop</i></b><br><br>Stops a running container through SIGTERM, a termination signal sent to the process to request termination, which can be caught and interpreted or ignored.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_stop/\">https://docs.docker.com/engine/reference/commandline/container_stop/</a>"
+            ],
+            "guid": "IA}nxU4M^D",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you <u>forcefully</u> kill a running Docker container?",
+                "<b style=\"font-style: italic;\">docker container kill </b><i>&lt;CONTAINER&gt;</i><br>OLD:&nbsp;<b><i>docker kill</i></b><br><br>Kills a running &lt;CONTAINER&gt; through SIGKILL, an immediate termination signal that cannot be caught or ignored by the process as it goes directly to the kernel init (completely skipping the process).<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_kill/\">https://docs.docker.com/engine/reference/commandline/container_kill/</a>"
+            ],
+            "guid": "yf}T-_<[o)",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you list the networks that Docker Engine knows about?",
+                "<b><i>docker network ls </i></b><i>&lt;OPTIONS&gt;</i><br><br>Lists all the networks the Engine daemon knows about, this includes the networks that span across multiple hosts in a cluster.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/network_ls/\">https://docs.docker.com/engine/reference/commandline/network_ls/</a>"
+            ],
+            "guid": "K,OK%dQUhz",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you delete a running&nbsp;container?",
+                "<b><i>docker container rm -f </i></b><i>&lt;CONTAINER&gt;</i><br><br>Forcefully deletes a running &lt;CONTAINER&gt; using SIGKILL<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_rm/\">https://docs.docker.com/engine/reference/commandline/container_rm/</a>"
+            ],
+            "guid": "K<MX/@avsd",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How do you print the last 100 lines of a given container's logs?",
+                "<b><i>docker container logs --tail </i></b><i>100 &lt;CONTAINER&gt;</i><br>OLD: <b><i>docker logs<br></i></b><br>Fetches the logs from a &lt;CONTAINER&gt;<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_logs/\">https://docs.docker.com/engine/reference/commandline/container_logs/</a>"
+            ],
+            "guid": "sy@yUwG_>]",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How would you retag a Docker image with a new image name &amp; tag?",
+                "<b><i>docker image tag</i></b> <i>&lt;SOURCE_IMAGE&gt;[:TAG] &lt;TARGET_IMAGE&gt;[:TAG]</i><br>OLD: <b><i>docker tag</i></b><br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_tag/\">https://docs.docker.com/engine/reference/commandline/image_tag/</a>"
+            ],
+            "guid": "M/Gtzk$g^O",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: How would you push a Docker image to a registry?",
+                "<b style=\"font-style: italic;\">docker image push </b><i>&lt;NAME&gt;[:TAG]</i><br><br>Pushes an image or repository to a registry. Progress bars show uncompressed data, which is compressed before sending.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/image_push/\">https://docs.docker.com/engine/reference/commandline/image_push/</a>"
+            ],
+            "guid": "EFFz%?2k1-",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
         }
     ]
 }
