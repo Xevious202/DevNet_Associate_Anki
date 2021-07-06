@@ -21,8 +21,8 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 117 Cards Total
-### 1.0 Software Development & Design 15% | 40 Cards Created
+# Exam Blueprint | 125 Cards Total
+## 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
 - 1.3 Describe the concepts of test-driven development | 2 "development"
@@ -39,7 +39,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 1.8.f Merge and handling conflicts
   - 1.8.g diff
 
-### 2.0 Understanding and Using APIs 20% | 18 Cards Created
+## 2.0 Understanding and Using APIs 20% | 18 Cards Created
 - 2.1 Construct a REST API request to accomplish a task given API documentation | 1 "API"
 - 2.2 Describe common usage patterns related to webhooks
 - 2.3 Identify the constraints when consuming APIs
@@ -50,7 +50,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 2.8 Compare common API styles (REST, RPC, synchronous, and asynchronous)
 - 2.9 Construct a Python script that calls a REST API using the requests library
 
-### 3.0 Cisco Platforms & Development 15% | No Cards Created
+## 3.0 Cisco Platforms & Development 15% | No Cards Created
 - 3.1 Construct a Python script that uses a Cisco SDK given SDK documentation
 - 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO)
 - 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight)
@@ -64,7 +64,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 3.9.b Manage spaces, participants, and messages in Webex Teams
   - 3.9.c Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
 
-### 4.0 Application Deployment & Security 15% | 20 Cards Created
+## 4.0 Application Deployment & Security 15% | 28 Cards Created
 - 4.1 Describe benefits of edge computing
 - 4.2 Identify attributes of different application deployment models (private cloud, public cloud, hybrid cloud, and edge)
 - 4.3 Identify the attributes of these application deployment types
@@ -73,7 +73,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 4.3.c Containers
 - 4.4 Describe components for a CI/CD pipeline in application deployments | 6 "Deployment"
 - 4.5 Construct a Python unit test | 3 "Python", "Deployment"
-- 4.6 Interpret contents of a Dockerfile
+- 4.6 Interpret contents of a Dockerfile | 8 "Containers"
 - 4.7 Utilize Docker images in local developer environment
 - 4.8 Identify application security issues related to secret protection, encryption (storage and transport), and data handling
 - 4.9 Explain how firewall, DNS, load balancers, and reverse proxy in application deployment
@@ -81,7 +81,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 4.11 Utilize Bash commands (file management, directory navigation, and environmental variables) | 11 "Shell"
 - 4.12 Identify the principles of DevOps practices
 
-### 5.0 Infrastructure & Automation 20% | 21 Cards Created
+## 5.0 Infrastructure & Automation 20% | 21 Cards Created
 - 5.1 Describe the value of model driven programmability for infrastructure automation
 - 5.2 Compare controller-level to device-level management | 4 "Automation"
 - 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS) | 1 "Automation"
@@ -97,7 +97,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 5.13 Describe the principles and benefits of a code review process
 - 5.14 Interpret sequence diagram that includes API calls
 
-### 6.0 Network Fundamentals 15% | No Cards Created
+## 6.0 Network Fundamentals 15% | No Cards Created
 - 6.1 Describe the purpose and usage of MAC addresses and VLANs
 - 6.2 Describe the purpose and usage of IP addresses, routes, subnet mask / prefix, and gateways
 - 6.3 Describe the function of common networking components (such as switches, routers, firewalls, and load balancers)
@@ -108,7 +108,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 6.8 Identify cause of application connectivity issues (NAT problem, Transport Port blocked, proxy, and VPN)
 - 6.9 Explain the impacts of network constraints on applications
 
-### Uncategorized Fundamentals (NOT IN BLUEPRINT) | 19 Cards Created
+## Uncategorized Fundamentals (NOT IN BLUEPRINT) | 19 Cards Created
 - Python | 10 "python", "shell", "Basics"
   - Compare Sets
   - Data Types

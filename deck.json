@@ -107,7 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Shell"
+                "Containers"
             ],
             "tmpls": [
                 {
@@ -1564,6 +1564,102 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What must a Dockerfile start with (with only one exception)?",
+                "<b>FROM:</b><br>It initializes a new build stage ans sets the <i>Base Image</i> for subsequent instructions. The image can be any valid image, including from public repositories (e.g. node:12-alpine).The only instruction that can precede FROM is the <b>ARG</b> instruction.<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/\">https://docs.docker.com/engine/reference/builder/</a>"
+            ],
+            "guid": "icOGzs<MMi",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>FROM</b> instruction provide in a Dockerfile?",
+                "Specifies the Base Image, it is the first instruction in a Dockerfile (excluding the ARG instruction). There can be multiple FROM instructions for multiple images.<br><br>Example:<br>FROM node:12-alpine<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#from\">https://docs.docker.com/engine/reference/builder/#from</a>"
+            ],
+            "guid": "dvJkVrNC2~",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>COPY</b> instruction provide in a Dockerfile?",
+                "The COPY instruction copies new files or directories from &lt;src&gt; and adds them to the filesystem of the container at the path &lt;dest&gt;.<br><br>Usage:<br>COPY [--chown=&lt;user&gt;:&lt;group&gt;] &lt;src&gt;... &lt;dest&gt;<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#copy\">https://docs.docker.com/engine/reference/builder/#copy</a>"
+            ],
+            "guid": "6QqYOQqn-",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>ENV</b> instruction provide in a Dockerfile?",
+                "The ENV instruction sets the environment variable &lt;key&gt; to the value &lt;value&gt;.<br><br>Example:&nbsp;<br>ENV MY_CAT=fluffy<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#env\">https://docs.docker.com/engine/reference/builder/#env</a>"
+            ],
+            "guid": "DUG]e<]P~#",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>RUN </b>instruction provide in a Dockerfile?",
+                "The RUN instruction will execute any commands in a new layer <u>on top</u> of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.<br><br>Note: Don't confuse this with the CMD instruction, which is a command intended for the image. RUN executes a command and commits it's result upon build.<br><br>Examples:<br>RUN apt upgrade<br>RUN /bin/bash -c 'source $HOME/.bashrc; echo $HOME'<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#run\">https://docs.docker.com/engine/reference/builder/#run</a>"
+            ],
+            "guid": "jb4L15YDql",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>VOLUME</b> instruction provide in a Dockerfile?",
+                "The VOLUME instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers. They are outside of the lifecycle of the container (when on the host), and are easily shared between containers as the volumes are managed by Docker.<br><br>Example:<br>VOLUME /myvol<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#volume\">https://docs.docker.com/engine/reference/builder/#volume</a>"
+            ],
+            "guid": "C]JR!Kbm4Q",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>EXPOSE</b> instruction provide in a Dockerfile?",
+                "The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime. You can specify whether the port listens on TCP or UDP (default is TCP). <br><b><br>NOTE</b>: The EXPOSE instruction does not actually publish the port, it functions as a type of documentation between the builder and operator of the container. To publish &amp; map the ports, you must use the <i>-p</i> or <i>-P</i> flag on <i>'docker run'.</i><br><br>Example:<br>EXPOSE 443/tcp<br>EXPOSE 4500/udp<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#expose\">https://docs.docker.com/engine/reference/builder/#expose</a>"
+            ],
+            "guid": "mU>B{Lhot^",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containers: What does the <b>CMD</b> instruction provide in a Dockerfile?",
+                "The main purpose of a CMD is to provide defaults for an executing containers. These defaults can include an executable, or they can omit the executable, in which case you must specify an ENTRYPOINT instruction.<br><br>Like <i>Highlander</i>, there can be only one in a Dockerfile, if multiple are present, only the last CMD will take effect.<br><br>Note: Don't confuse this with the RUN instruction, which executes a command and commits it's result on build. CMD doesn't execute anything at build time, but specifies the intended command for the image which can be overridden by <i>docker run</i> arguments.<br><br>Example:<br>CMD echo \"Improbability Drive Activated.\"<br>or, more realistically, starting a webserver. This is ran without a shell, so it's a JSON array with the full path.<br>CMD [\"node\", \"src/index.js\"]<br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/builder/#cmd\">https://docs.docker.com/engine/reference/builder/#cmd</a>"
+            ],
+            "guid": "tjr-qF~OB2",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Containers"
             ]
         }
     ]
