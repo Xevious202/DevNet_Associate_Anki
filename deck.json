@@ -107,8 +107,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Python",
-                "Deployment"
+                "Shell"
             ],
             "tmpls": [
                 {
@@ -1407,6 +1406,164 @@
             "tags": [
                 "Deployment",
                 "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is a happy path test?",
+                "In the context of software or information modeling, a&nbsp;<b>happy path</b>&nbsp;(sometimes called&nbsp;<b>happy flow</b>) is a default&nbsp;<a href=\"https://en.wikipedia.org/wiki/Scenario_(computing)\">scenario</a>&nbsp;featuring no&nbsp;<a href=\"https://en.wikipedia.org/wiki/Exception_handling\">exceptional or error conditions</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Happy_path#cite_note-1\">[1]</a></sup><sup><a href=\"https://en.wikipedia.org/wiki/Happy_path#cite_note-2\">[2]</a></sup>&nbsp;For example, the happy path for a function validating credit card numbers would be where none of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Validation_rule\">validation rules</a>&nbsp;raise an error, thus letting execution continue successfully to the end, generating a positive response."
+            ],
+            "guid": "D;sIv5Vg!Y",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deployment: What is an error path test?",
+                "Also called unhappy path, It covers boundary cases to help identify code bugs. It is a term used as the opposite of \"happy path\""
+            ],
+            "guid": "y//aUEw2Wr",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Deployment",
+                "python"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'cd' </b>command?",
+                "Change Directory<br>$ cd /home/localuser<br>$ cd ..&nbsp;"
+            ],
+            "guid": "Cn^n6MX]DD",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'pwd' </b>command?",
+                "Print Working Directory [path]<br>$ pwd"
+            ],
+            "guid": "ttZs5DVXHK",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'ls' </b>command?",
+                "List directory contents<br>$ ls -alh (a = files that begin with '.'&nbsp; &nbsp;l = long format&nbsp; &nbsp;h = uses byte, kb, mb, etc)"
+            ],
+            "guid": "q}Y@uC67b#",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the <b>'mkdir' </b>command?",
+                "Make Directories<br>$ mkdir test"
+            ],
+            "guid": "p>YdNhi4O]",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the <b>'cp' </b>command?",
+                "Copy Files<br>$ cp /home/localuser/testfile.py /temp/testfile_copy.py<br>$ cp -r /home/localuser /bin/homefolder.old (copies contents of a folder to a single file)"
+            ],
+            "guid": "K|XzA9PQ#w",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'mv' </b>command?",
+                "Move Files (It is actually just using the cp and rm commands!)<br>*Also used to rename files*<br>$ mv codex.py thecodex.py<br>$ mv /home/localuser/finalproject.txt /bin"
+            ],
+            "guid": "w_K7l2q72q",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the <b>'rm'</b> command?",
+                "Remove (directory entries)<br>$ rm codex.py<br>$ rm -rf projectfolder"
+            ],
+            "guid": "NM|Qg2C,@B",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'touch' </b>command?",
+                "Sets modification and access time for files, <u>if a file doesn't exist, it is created</u> with default permissions.<br>$ touch dummyfile.txt<br>$ touch bunchOfiles[1..42].txt"
+            ],
+            "guid": "w.PGTIP7hn",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the <b>'cat' </b>command?",
+                "Concatenate and Print Files (commonly piped to the | 'more' command for readability)<br>$ cat hitchhikersguide.txt | more<br>$ cat sshkeys.cfg<br>$ cat &gt;savetyped.txt (sends typed input to savetyped.txt)"
+            ],
+            "guid": "o<f=([%lMa",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the <b>'env' </b>command?",
+                "Set Environment and Execute, or Print Environment (pipe output to 'more' for readability)<br>$ env | more<br>$ env HOME=/tmp/newhomefolder (sets home folder to variable)"
+            ],
+            "guid": "zv3jBBG:.h",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shell: What is the<b> 'man'</b> command?",
+                "Format and Display On-line Manual Pages<br>(an indispensible shell tool to understand the shell!)<br>$ man mkdir<br>$ man darktower.file"
+            ],
+            "guid": "Fd[#qN@mDi",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "shell"
             ]
         }
     ]
