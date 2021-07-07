@@ -1893,6 +1893,66 @@
             "tags": [
                 "Security"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a TLS/SSL Termination Proxy? What are the three types?",
+                "A TLS/SSL termination proxy is a proxy server that acts as an intermediary point between client and server. There are three connectivity patterns, but importantly, they are NOT TLS pass-through proxies, they always manipulate the client-server connection.<br><br><b>TLS Offloading:</b> Inbound TLS/SSL from Client, plaintext to the server.<br><b>TLS Encryption:</b> Outbound plaintext from Client is encrypted to the server.<br><b>TLS Bridging:</b> Inbound TLS/SSL from Client, a seperate TLS/SSL to the server.<br><br>src:&nbsp;<a href=\"https://en.wikipedia.org/wiki/TLS_termination_proxy\">https://en.wikipedia.org/wiki/TLS_termination_proxy</a>"
+            ],
+            "guid": "Kdj>3@)j*a",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a Web Application Firewall (WAF), and how is it different from a standard Firewall?",
+                "A web application firewall (WAF) is a specific form of application firewall that filters, monitors, and blocks HTTP/S traffic to and from a webservice. By inspecting HTTP/S traffic, it can prevent attacks exploiting a web application's known vulnerabilities, such as SQL injection, cross-site scripting (XSS), file inclusion, and improper system configuration. While a standard firewall operates on OSI layers 3-4, a WAF operates on 3-7.<br><br>src:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Web_application_firewall\">https://en.wikipedia.org/wiki/Web_application_firewall</a>"
+            ],
+            "guid": "o]VdFg%-Sj",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a Reverse Proxy?",
+                "A reverse proxy is a server that sits in front of web servers and forwards client requests to those web servers. They are typically implemented to help increase security, performance, and reliability. They intercept client requests and communicate with one or more web servers on behalf of the clients. They are different from a load balancer as they offer more features, local caching of static resources, compression, and SSL termination.<br><br>src:&nbsp;<a href=\"https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/\">https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/</a><br>src:&nbsp;<a href=\"https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/\">https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/</a>"
+            ],
+            "guid": "Lch$:H^asW",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is a Load Balancer?",
+                "Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers, also known as a server farm or pool. They act as a \"traffic cop\" sitting in front of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization. All while ensuring no one server is overworked which would affect performance.<br><br>They can operate on OSI layers 4 or 7. Balancing traffic on IP/port or URL/Data respectively.<br><br>src:&nbsp;<a href=\"https://www.nginx.com/resources/glossary/load-balancing\">https://www.nginx.com/resources/glossary/load-balancing</a>"
+            ],
+            "guid": "t6G.Kg?Q~c",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security: What is Secure DNS (DNSSEC)?",
+                "DNS (Domain Name System) is the phone book of the internet. It is also the second most attacked protocol next to HTTP. Standard, plaintext, DNS queries create opportunities for DNS exploits such as DNS hijacking and on-path attacks. These attacks can redirect traffic to fake copies of a website. One of the best ways to protect DNS from these exploits is leveraging DNSSEC (DNS Security Extensions).<br><br>DNSSEC digitally signs data to ensure validity. In order for a lookup to be secure, signing happens at every level of the DNS process (e.g. DNS recursor -&gt; Root Nameserver -&gt; TLD Nameserver -&gt; Authoritative Nameserver).<br><br>src:&nbsp;<a href=\"https://www.cloudflare.com/learning/dns/dns-security/\">https://www.cloudflare.com/learning/dns/dns-security/</a><br>src:&nbsp;<a href=\"https://www.cloudflare.com/learning/dns/what-is-dns/\">https://www.cloudflare.com/learning/dns/what-is-dns/</a>"
+            ],
+            "guid": "e0.c!zl^j0",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Security"
+            ]
         }
     ]
 }
