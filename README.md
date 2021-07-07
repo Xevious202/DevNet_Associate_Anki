@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 149 Cards Total
+# Exam Blueprint | 156 Cards Total
 ## 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -50,10 +50,10 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 2.8 Compare common API styles (REST, RPC, synchronous, and asynchronous)
 - 2.9 Construct a Python script that calls a REST API using the requests library
 
-## 3.0 Cisco Platforms & Development 15% | No Cards Created
+## 3.0 Cisco Platforms & Development 15% | 6 Cards Created
 - 3.1 Construct a Python script that uses a Cisco SDK given SDK documentation
-- 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO)
-- 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight)
+- 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO) | 3 "Platforms"
+- 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight) | 3 "Platforms"
 - 3.4 Describe the capabilities of Cisco collaboration platforms and APIs (Webex Teams, Webex devices, Cisco Unified Communication Manager including AXL and UDS interfaces, and Finesse)
 - 3.5 Describe the capabilities of Cisco security platforms and APIs (Firepower, Umbrella, AMP, ISE, and ThreatGrid)
 - 3.6 Describe the device level APIs and dynamic interfaces for IOS XE and NX-OS
@@ -81,10 +81,10 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 4.11 Utilize Bash commands (file management, directory navigation, and environmental variables) | 11 "Shell"
 - 4.12 Identify the principles of DevOps practices
 
-## 5.0 Infrastructure & Automation 20% | 21 Cards Created
+## 5.0 Infrastructure & Automation 20% | 22 Cards Created
 - 5.1 Describe the value of model driven programmability for infrastructure automation
 - 5.2 Compare controller-level to device-level management | 4 "Automation"
-- 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS) | 1 "Automation"
+- 5.3 Describe the use and roles of network simulation and test tools (such as VIRL and pyATS) | 2 "Automation"
 - 5.4 Describe the components and benefits of CI/CD pipeline in infrastructure automation
 - 5.5 Describe principles of infrastructure as code | 1 "Automation"
 - 5.6 Describe the capabilities of automation tools such as Ansible, Puppet, Chef, and Cisco NSO | 10 "Automation"

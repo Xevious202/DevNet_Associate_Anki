@@ -111,7 +111,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Security"
+                "Platforms"
             ],
             "tmpls": [
                 {
@@ -1717,8 +1717,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Containers: How do you run a container from the Alpine version 3.9 image, name the running container \"web\", and expose port 5000 externally mapped inside the container to port 80?",
-                "<i><b>docker container run</b> <b>--name</b> web </i><b><i>-p </i></b><i>5000:80 alpine:3.9<br></i>OLD:&nbsp;<b><i>docker run</i></b><br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_run/\">https://docs.docker.com/engine/reference/commandline/container_run/</a>"
+                "Containers: How do you run a detached Docker container from the Alpine version 3.9 image, name the running container \"web\", and expose port 5000 externally mapped inside the container to port 80?",
+                "<i><b>docker container run</b>&nbsp;-d&nbsp;<b>--name</b> web </i><b><i>-p </i></b><i>5000:80 alpine:3.9<br></i>OLD:&nbsp;<b><i>docker run</i></b><br><br>src:&nbsp;<a href=\"https://docs.docker.com/engine/reference/commandline/container_run/\">https://docs.docker.com/engine/reference/commandline/container_run/</a>"
             ],
             "guid": "o>bNVB3S;P",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -1952,6 +1952,90 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Automation: What are some use cases for network simulation and test tools? (e.g. VIRL/CML, pyATS)",
+                "They can be used for;<br>1.) Building PoCs (Proof of Concepts) or testing new network designs.<br>2.) Pre-production/testing enviroments to test infrastructure changes in production architecture.<br>3.) Development of new or updated IaC (Infrastructure as Code), management code, etc.<br>4.) As a sandbox for training and certifications."
+            ],
+            "guid": "t,oCQKVg9I",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Automation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco DNA, what are it's capabilities?",
+                "Cisco DNA (Digital Network Architecture) is an intent-based network management platform.&nbsp;<br><br>It has 5 core capabilities;<br>1.) Policy Implementation: Control the network through policy intent.<br>2.) Automation: Zero-touch provisioning, network configuration from a centralized dashboard.<br>3.) Analytics: Network-wide visibility and monitoring gives you the ability to see sub-optimal performance.<br>4.) Security: Segment your network as needed to contain lateral threats, isolate endpoints, and mitigate vulnerabilities.<br>5.) Open Platform: Easy data and intelligence exchange with external applciations and systems, both north and southbound.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/cisco-digital-network-architecture/nb-06-cisco-dna-aag-cte-en.html?oid=aagen000309\">https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/cisco-digital-network-architecture/nb-06-cisco-dna-aag-cte-en.html?oid=aagen000309</a>"
+            ],
+            "guid": "nzKG>w`$.g",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco ACI, what are it's capabilities?",
+                "Cisco Application Centric Infrastructure (ACI) is a data center focused SDN solution that automates network and security for workloads within and across heterogeneous domains; i.e., physical, virtual, containers, and public cloud.<br><br>It has 4 core capabilities:<br>1.) Automation and Consistency: Resource elasticity with automation for common data center operations. Works well with dynamic environments with workload life-cycles.<br>2.) Multicloud Acceleration: Extend consistent policy across datacenters and even cloud.<br>3.) Zero-trust: Uses a zero trust security model to protect workloads from east-west vulnerabilities as well as isolate traffic at OSI layer 4, leveraging a white-list policy model.<br>4.) Centralized Management: Day 2 operations more proactive as issues and outages can be quickly discovered and remediated through ACI's highly-available leaf-spine topology.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html\">https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html</a><br>"
+            ],
+            "guid": "pqQ&;J`*nD",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco NSO, what are it's capabilities?",
+                "Cisco NSO (Network Services Orchestrator) is a model-driven (YANG) orchestration platform for hybrid networks. It is powerful in multi-vendor environments and it's predecessor Tail-f supported many service providers (AT&amp;T, Deutsch Telekcom). It supports multivendor networks through Network Element Drivers (NEDs).<br><br>NSO is geared towards Developers, and a Dev-ops environment, and it's capabile of driving Cisco DNA, ACI, and more.<br><br>It has 3 core capabilities;<br>1.) OS Upgrades: Streamlines network element and device upgrades in a multivendor environment.<br>2.) Device port turn-up: Manage bulk provisioning for multivendor operations.<br>3.) Zero-Touch Provisioning: Onboard new network devices without human intervention, supports multi-vendor.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html\">https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html</a>"
+            ],
+            "guid": "b=e24w(W){",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco UCSM, what are it's capabilities?",
+                "Cisco Unified Compute System Manager (UCSM) is a software/hardware product that manages UCS server infrastructure.&nbsp; It manages UCS Blade/Chassis, UCS Mini, and Cisco Hyperflex. It only manages one server domain, as it runs on physical hardware (a pair Fabric Interconnect switches) in the datacenter.<br><br>It has 3 core capabilities;<br>1.) Directly manages UCS B and C-series servers, including UCS Mini and Hyperflex.<br>2.) Provides unified policy, configuration, and provisioning templates for all connected servers. Larger scale (multiple locations/UCSM instances) is done with UCS Central, a different product that is a manager of managers.<br>3.) Integrates with Third-party systems via a robust XML API or Python SDK.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-manager/index.html\">https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-manager/index.html</a>"
+            ],
+            "guid": "u]Lz3Gh]Sk",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco UCS Central, what are it's capabilities?",
+                "Cisco Unified Compute System Central is a software product that allows you to manage multiple Cisco UCS domains through a single management point. It works with Cisco UCS Manager (UCSM) as a \"manager of managers\" to provide a scalable management solution for an enterprise environment. It does not replace UCSM, but allows you to ensure global policy, firmware, and configuration compliance.&nbsp;<br><br>It has a handful of core capabilities;<br>1.) Centralized inventory and health status with dashboard and reporting allows for easy and consistent monitoring.<br>2.) Global and local policies allow for unique deployed areas and common \"golden\" policies for all sites.<br>3.) Policy based server definitions and firmware can be applied locally or globally as needed.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-central-software/index.html\">https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-central-software/index.html</a>"
+            ],
+            "guid": "i661hcg3,o",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Intersight, and what are it's capabilities?",
+                "Cisco Intersight is a cloud-based software management platform for Cisco UCS and Hyperflex. It simplifies systems management across data centers, remote office-branch office (ROBO), and edge environments. The highly available system means consistent monitoring and management regardless of local network stability provided other locations can still communicate. Built with DevOps in mind with OpenAPI, Python and Powershell SDKs.<br><br>It has 2 core capabilities above and beyond UCSM/Central;<br>1.) Learns and evolves to deliver improved insights to help you manage your environment.<br>2.) Cisco TAC has visibility of system health/configurations allowing for proactive RMA's and Incident response.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/at-a-glance-c45-739419.html\">https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/at-a-glance-c45-739419.html</a>"
+            ],
+            "guid": "wa:<nFS@,A",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
             ]
         }
     ]
