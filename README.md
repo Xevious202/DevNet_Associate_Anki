@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 156 Cards Total
+# Exam Blueprint | 170 Cards Total
 ## 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -50,12 +50,12 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 2.8 Compare common API styles (REST, RPC, synchronous, and asynchronous)
 - 2.9 Construct a Python script that calls a REST API using the requests library
 
-## 3.0 Cisco Platforms & Development 15% | 6 Cards Created
+## 3.0 Cisco Platforms & Development 15% | 20 Cards Created
 - 3.1 Construct a Python script that uses a Cisco SDK given SDK documentation
 - 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO) | 3 "Platforms"
-- 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight) | 3 "Platforms"
-- 3.4 Describe the capabilities of Cisco collaboration platforms and APIs (Webex Teams, Webex devices, Cisco Unified Communication Manager including AXL and UDS interfaces, and Finesse)
-- 3.5 Describe the capabilities of Cisco security platforms and APIs (Firepower, Umbrella, AMP, ISE, and ThreatGrid)
+- 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight) | 6 "Platforms", "API"
+- 3.4 Describe the capabilities of Cisco collaboration platforms and APIs (Webex Teams, Webex devices, Cisco Unified Communication Manager including AXL and UDS interfaces, and Finesse) | 6 "Platforms, "API"
+- 3.5 Describe the capabilities of Cisco security platforms and APIs (Firepower, Umbrella, AMP, ISE, and ThreatGrid) | 5 "Platforms", "API"
 - 3.6 Describe the device level APIs and dynamic interfaces for IOS XE and NX-OS
 - 3.7 Identify the appropriate DevNet resource for a given scenario (Sandbox, Code Exchange, support, forums, Learning Labs, and API documentation)
 - 3.8 Apply concepts of model driven programmability (YANG, RESTCONF, and NETCONF) in a Cisco environment

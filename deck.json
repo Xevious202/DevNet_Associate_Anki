@@ -2037,6 +2037,175 @@
             "tags": [
                 "Platforms"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco UCS Central?",
+                "UCS Central has two options.<br>1.) UCS Central Python SDK [ALPHA]: Automate/manage configurations<br>2.) UCS Central PowerTool: Automate/manage configurations<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/ucs-dev-center/#!ucs-central/getting-started-with-ucs-central\">https://developer.cisco.com/docs/ucs-dev-center/#!ucs-central/getting-started-with-ucs-central</a>"
+            ],
+            "guid": "s4.7pMcm.Y",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco UCS Manager?",
+                "UCS Manager has two options.<br>1.) UCS Manager Python SDK: Automate/manage configurations<br>2.) UCS Manager PowerTool: Automate/manage configurations<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/ucs-dev-center/#!ucs-manager/ucs-manager-developer-api-toolkit\">https://developer.cisco.com/docs/ucs-dev-center/#!ucs-manager/ucs-manager-developer-api-toolkit</a>"
+            ],
+            "guid": "fjoc[oTMf`",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Intersight?",
+                "UCS Intersight has one option:<br>1.) REST API: All data in the Cisco Intersight Management Information Model is represented.<br>E.g. UCS servers, server components, UCS Fabric Interconnects, Firmware, Hyperflex, VM's, VLANs/VSANs, Users, etc.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/site/intersight/\">https://developer.cisco.com/site/intersight/</a>"
+            ],
+            "guid": "nwFPReWz5^",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms, API: What is Cisco Finesse, what are it's API capabilities?",
+                "Cisco Finesse is a next-gen call-center and customer service collaboration platform. It provides an agent and supervisor desktop that integrates contact center functions into a thin-client (browser based).<br><br>It offers a REST API which has User, Dialog, Media, Queue, Team, TeamResource, SystemInfo, and ClientLogs.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/finesse/#!finesse-overview\">https://developer.cisco.com/docs/finesse/#!finesse-overview</a>"
+            ],
+            "guid": "G`&0O;COv9",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API",
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Webex, what are it's capabilities?",
+                "Cisco webex is a collaboration tool that provides secure, integrated audio, video, and content sharing from anywhere.<br><br>There are 3 core products:<br>1.) Webex Meetings, a multiplatform video conferencing platform.<br>2.) Webex Teams, a collaboration chat platform.<br>3.) Webex Devices, collaboration hardware solutions that integrate with Teams and Meetings.<br><br>src:&nbsp;<a href=\"https://developer.webex.com\">https://developer.webex.com</a>"
+            ],
+            "guid": "FMXNeYu>zF",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Webex Teams?",
+                "Webex Teams has several options:<br>1.) REST API: There are many different components within Webex that can be read or manipulated from REST API.<br>2.) Bots: similar to webex users, they can participate similar to humans.<br>3.) 3rd party integrations: typically performed via REST API, but with it's own permission/authorization.<br>4.) Widgets: React and Redux applications that can be integrated into websites.<br>4.) Guest Issuer: Temporary access for guest users.<br><br>src:&nbsp;<a href=\"https://developer.webex.com/docs/api/getting-started\">https://developer.webex.com/docs/api/getting-started</a>"
+            ],
+            "guid": "FOqx-$0*(7",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is CUCM, what are it's capabilites?",
+                "Cisco Unified Communications Manager is an enterprise call control and session management platform that connects people anywhere, using any device.<br><br>There are 6 core features:<br>1.) Unified Communications: IP telephony, HD video, Unified Messaging, Instant Message and Presence.<br>2.) Enhanced Mobility: Supports on-site, Mobile, and Remote workers.<br>3.) Local and Global: Supports small to large enterprises with up to 80,000 users.<br>4.) Cloud-connected Global Operations: Webex Cloud-Connected UC allows centralized control of UCM operations.<br>5.) Open and Interoperable: Supports industry standards, multi-vendor gateways, and 3rd party integrations.<br>6.) Secure and Compliant: Supports the latest authentication, encryption, and communication protocols, complies with industry certifications.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html#~features\">https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html#~features</a>"
+            ],
+            "guid": "O4^3D;NXJ)",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco UCM?",
+                "Cisco Unified Communications Manager leverages several APIs:<br><br>--AXL, or Administrative XML for API provisioning from CUCM 11.0+. AXL operations are done leveraging XML over HTTPS and SOAP.<br>AXL Operations include provisioning and configuration (Note: This is NOT a real-time API):<br>1.) Configure devices and directory numbers<br>2.) Configure users<br>3.) Configure Voicemail<br><br>--Cisco Emergency Responder API<br><br>--Platform Administrative Web Services (PAWS) API<br><br>--Cisco Unified Communications Manager Serviceability XML API<br><br>-- User Data Services (UDS) API:<br>REST-based set of operations, providing:<br>1.) Directory search for users<br>2.) Manage call forwarding and do not disturb<br>3.) and more<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/axl-developer-guide/\">https://developer.cisco.com/docs/axl-developer-guide/</a><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/user-data-services-api-reference/\">https://developer.cisco.com/docs/user-data-services-api-reference/</a>"
+            ],
+            "guid": "jidX9QqnCK",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Webex Meetings?",
+                "Webex Meetings offers 4 options:<br>1.) XML API: The full suite of functions, user/attendee/recording management, reports, scheduling<br>2.) URL API: basic functionality for web portals<br>3.) REST API<br>4.) Teleconference service provider API: for external teleconference service providers.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/webex-meetings/\">https://developer.cisco.com/webex-meetings/</a>"
+            ],
+            "guid": "NG_2+:Nd&!",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Firepower, what are it's capabilities?",
+                "Cisco Firepower (also called Cisco Secure Firewall) is a next generation firewall that integrates Cisco ASA and FTD (Firepower Threat Defense).<br><br>It has 3 core capabilities:<br>1.) Real-time, unified, workload and network security for integrated control across dynamic application environments.<br>2.) Platform approach to network security, leveraging and sharing intelligence from key sources for faster detection.<br>3.) SecureX entitlement, a tightly integrated approach to security that enables correlation across the Cisco Secure portfolio.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/collateral/security/firesight-management-center/at-a-glance-c45-736624.html\">https://www.cisco.com/c/en/us/products/collateral/security/firesight-management-center/at-a-glance-c45-736624.html</a>"
+            ],
+            "guid": "y1zLR0R>qX",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco AMP, what are it's capabilities?",
+                "Cisco AMP (Advanced Malware Protection), now called Secure Endpoint, is a client software platform with centralized management.<br><br>There are 3 core capabilities:<br>1.) Reduces attack surface using endpoint detection and response (EDR), isolating endpoints when needed.<br>2.) Simplified investigations, with advanced search and automated playbooks to improve incident management.<br>3.) Built-in SecureX threat hunting, proactive protection based on the MITRE ATT&amp;CK framework. Novel threats can be identified in another customer network and automatically blocked in yours, called a \"zero-day vulnerability\".&nbsp;<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/security/amp-for-endpoints/index.html\">https://www.cisco.com/c/en/us/products/security/amp-for-endpoints/index.html</a>"
+            ],
+            "guid": "QhMusw,eLg",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Threat Grid, what are it's capabilities?",
+                "Threat Grid (Now called Cisco Secure Malware Analytics) combines sandboxing (also called a \"detonation environment\")&nbsp; with a shared threat intelligence network to protect organizations from malware.<br><br>There are 2 core capabilites;<br>1.) Rapid analysis of files and suspicious behavior protects the network with a global and historical view, providing insight that can drive organizational decisions.<br>2.) Integration via a powerful API to existing security products.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/security/threat-grid/index.html\">https://www.cisco.com/c/en/us/products/security/threat-grid/index.html</a>"
+            ],
+            "guid": "dx*^rd<o)a",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Umbrella, what are it's capabilites?",
+                "Cisco Umbrella is a SASE DNS service provided by Cisco and OpenDNS. They play the role of a Recursive DNS server, not only providing DNS protocol protection via DNSSEC, but automatically protecting your network from malicious sites by blocking DNS queries.<br><br>There are 3 core capabilities:<br>1.) Consistent policies for both corporate and BYOD devices.<br>2.) Better performance with dedicated services<br>3.) Full visibility, seeing when a compromised endpoint reaches out to a command-and-control network for example, allowing you to quickly identify and quarantine endpoints.<br><br>src:&nbsp;<a href=\"https://umbrella.cisco.com/products/cloud-security-service\">https://umbrella.cisco.com/products/cloud-security-service</a>"
+            ],
+            "guid": "b]J`W~0+r`",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco ISE, What are it's capabilities?",
+                "Cisco Identity Services Engine (ISE) is a network access control platform. It provides user identity information to many other systems (including 3rd party) by leveraging industry standard security procols. SGT tags, 802.1x, TACACS AAA, etc.<br><br>There are 5 core capabilities:<br>1.) Access Control, whether on the LAN, VPN, wireless or wired.<br>2.) Device Administration, allows centralized Role-based Access Control (RBAC) to network devices via TACACS.<br>3.) Guest access with restricted network policies.<br>4.) Visibility into network posture<br>5.) BYOD, Enterprise mobility with fast onboarding for devices.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/security/identity-services-engine/index.html\">https://www.cisco.com/c/en/us/products/security/identity-services-engine/index.html</a>"
+            ],
+            "guid": "M}s~.KC|7p",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
         }
     ]
 }
