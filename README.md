@@ -21,7 +21,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 | Construct | Associate level; You may be asked how to configure this |
 | Describe | Conceptual, likely not covered in simulated environment questions |
 
-# Exam Blueprint | 179 Cards Total
+# Exam Blueprint | 185 Cards Total
 ## 1.0 Software Development & Design 15% | 40 Cards Created
 - 1.1 Compare data formats (XML, JSON, and YAML) | 3 "data-serialization"
 - 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures | 3 "data-serialization", "python"
@@ -39,7 +39,7 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
   - 1.8.f Merge and handling conflicts
   - 1.8.g diff
 
-## 2.0 Understanding and Using APIs 20% | 18 Cards Created
+## 2.0 Understanding and Using APIs 20% | 19 Cards Created
 - 2.1 Construct a REST API request to accomplish a task given API documentation | 1 "API"
 - 2.2 Describe common usage patterns related to webhooks
 - 2.3 Identify the constraints when consuming APIs
@@ -48,15 +48,15 @@ Indicate level of knowledge needed on each topic. Associate level is (on average
 - 2.6 Identify the parts of an HTTP response (response code, headers, body)
 - 2.7 Utilize common API authentication mechanisms: basic, custom token, and API keys
 - 2.8 Compare common API styles (REST, RPC, synchronous, and asynchronous)
-- 2.9 Construct a Python script that calls a REST API using the requests library
+- 2.9 Construct a Python script that calls a REST API using the requests library | 1 "Construct"
 
-## 3.0 Cisco Platforms & Development 15% | 29 Cards Created
+## 3.0 Cisco Platforms & Development 15% | 34 Cards Created
 - 3.1 Construct a Python script that uses a Cisco SDK given SDK documentation
-- 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO) | 7 "Platforms", "API"
+- 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO) | 10 "Platforms", "API"
 - 3.3 Describe the capabilities of Cisco compute management platforms and APIs (UCS Manager, UCS Director, and Intersight) | 6 "Platforms", "API"
 - 3.4 Describe the capabilities of Cisco collaboration platforms and APIs (Webex Teams, Webex devices, Cisco Unified Communication Manager including AXL and UDS interfaces, and Finesse) | 6 "Platforms, "API"
 - 3.5 Describe the capabilities of Cisco security platforms and APIs (Firepower, Umbrella, AMP, ISE, and ThreatGrid) | 10 "Platforms", "API"
-- 3.6 Describe the device level APIs and dynamic interfaces for IOS XE and NX-OS
+- 3.6 Describe the device level APIs and dynamic interfaces for IOS XE and NX-OS | 2 "API"
 - 3.7 Identify the appropriate DevNet resource for a given scenario (Sandbox, Code Exchange, support, forums, Learning Labs, and API documentation)
 - 3.8 Apply concepts of model driven programmability (YANG, RESTCONF, and NETCONF) in a Cisco environment
 - 3.9 Construct code to perform a specific operation based on a set of requirements and given API reference documentation such as these:

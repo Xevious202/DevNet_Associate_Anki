@@ -71,7 +71,7 @@
         "csrf-cross-site-request-forgery.png",
         "sorted-XSS.png"
     ],
-    "mid": 1623966180796,
+    "mid": 1624463425419,
     "name": "DevNet Associate",
     "note_models": [
         {
@@ -112,6 +112,60 @@
             "sortf": 0,
             "tags": [
                 "API"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Construct"
             ],
             "tmpls": [
                 {
@@ -2271,7 +2325,7 @@
             "__type__": "Note",
             "fields": [
                 "Platforms: What is Cisco Meraki, what are it's capabilities?",
-                "Cisco Meraki is a cloud-managed IT product suite that includes wireless, switching, security, EMM (Enterprise Mobility Managment), and security cameras. All managed via a ubiquitous SaaS portal.<br><br>There are 5 core capabilities:<br>1.) Simplified infrastructure management through central SaaS GUI.<br>2.) Seamless over-the-web firmware and security updates.<br>3.) Zero touch provisioning and automated workflows and API integrations.<br>4.) Built-in remote troubleshooting tools<br>5.) Application visibility and location analytics.<br><br>src:&nbsp;<a href=\"https://meraki.cisco.com/products/\">https://meraki.cisco.com/products/</a>"
+                "Cisco Meraki is a cloud-managed IT product suite that includes wireless, switching, security, EMM (Enterprise Mobility Management), and security cameras. All managed via a ubiquitous SaaS portal.<br><br>There are 5 core capabilities:<br>1.) Simplified infrastructure management through central SaaS GUI.<br>2.) Seamless over-the-web firmware and security updates.<br>3.) Zero touch provisioning and automated workflows and API integrations.<br>4.) Built-in remote troubleshooting tools<br>5.) Application visibility and location analytics.<br><br>src:&nbsp;<a href=\"https://meraki.cisco.com/products/\">https://meraki.cisco.com/products/</a>"
             ],
             "guid": "yVxSD7`D>P",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
@@ -2313,6 +2367,78 @@
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available for IOS XE?",
+                "Cisco IOS XE devices support multiple API methods;<br>1.) NETCONF (XML of YANG Models)<br>2.) RESTCONF (XML or JSON of YANG Models)<br>3.) gRPC Network Management Interface (gNMI), can be modeled with YANG, uses JSON for encoding.<br><br>There are also three integration methods;<br>1.) Cisco Propretiary Solutions; like DNAC (DNA Center)<br>2.) 3rd Party Solutions: SDN Controllers, CI/CD Tools, NMS Systems<br>3.) DIY Solutions; Custom developed applications, on-box python via guest shell, app hosting, etc.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/ios-xe/\">https://developer.cisco.com/docs/ios-xe/</a>"
+            ],
+            "guid": "oB[rP`-0;S",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available for NX-OS?",
+                "Cisco NX-OS devices support multiple API methods;<br>1.) NX-API REST &amp; CLI (RESTful, and CLI is JSON or XML)<br>2.) NETCONF (YANG)<br>3.) RESTCONF (YANG)<br>4.) gRPC (YANG)<br>5.) NX-OS SDK (NX-SDK) (C++, Python, Go)<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/nx-os/\">https://developer.cisco.com/docs/nx-os/</a>"
+            ],
+            "guid": "dZ,(C}U{D,",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco ACI?",
+                "Cisco Application Centric Infrastructure offers multiple API methods;<br>1.) Cobra (Python)<br>2.) ACIrb (Ruby)<br>3.) ACI toolkit<br>4.) REST<br>5.) Puppet<br>6.) Ansible<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/aci/\">https://developer.cisco.com/docs/aci/</a>"
+            ],
+            "guid": "N6,)I1pklK",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available for DNA Center (DNAC)?",
+                "Cisco DNA Center offers multiple REST API methods;<br>1.) Intent API (JSON)<br>2.) Software Image Management (SWIM) API<br>3.) PnP API<br>4.) Operational tools<br>5.) Authentication API<br>6.) Integration API<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/dna-center/\">https://developer.cisco.com/docs/dna-center/</a>"
+            ],
+            "guid": "qHvUI,?#eA",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco NSO?",
+                "Network Services Orchestrator supports several methods;<br>1.) REST API<br>2.) Python SDK<br>3.) Java SDK<br>4.) Erlang SDK<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/nso/\">https://developer.cisco.com/docs/nso/</a>"
+            ],
+            "guid": "Q2)2s[u<vy",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Construct: Obtain a list of network devices from Cisco Meraki with Python - Requests",
+                "<div><div><span style=\"font-weight: bold;\">import</span> requests</div><br><div>url = \"https://api.meraki.com/api/v1/networks/L_566327653141843049/devices\"</div><br><div>payload={}</div><div>headers = {</div><div> 'X-Cisco-Meraki-API-Key': '6bec40cf957de430a6f1f2baa056b99a4fac9ea0'</div><div>}</div><br><div>response = requests.request(\"GET\", url, headers=headers, data=payload)</div><br><div><span style=\"font-weight: bold;\">print</span>(response.text)</div><br></div>"
+            ],
+            "guid": "M;u!}``9x6",
+            "note_model_uuid": "033f0a6a-e044-11eb-9530-acde48001122",
+            "tags": [
+                "Construct"
             ]
         }
     ]
