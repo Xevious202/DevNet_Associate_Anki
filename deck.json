@@ -111,7 +111,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Platforms"
+                "API"
             ],
             "tmpls": [
                 {
@@ -2198,13 +2198,121 @@
         {
             "__type__": "Note",
             "fields": [
-                "Platforms: What is Cisco ISE, What are it's capabilities?",
+                "Platforms: What is Cisco ISE, what are it's capabilities?",
                 "Cisco Identity Services Engine (ISE) is a network access control platform. It provides user identity information to many other systems (including 3rd party) by leveraging industry standard security procols. SGT tags, 802.1x, TACACS AAA, etc.<br><br>There are 5 core capabilities:<br>1.) Access Control, whether on the LAN, VPN, wireless or wired.<br>2.) Device Administration, allows centralized Role-based Access Control (RBAC) to network devices via TACACS.<br>3.) Guest access with restricted network policies.<br>4.) Visibility into network posture<br>5.) BYOD, Enterprise mobility with fast onboarding for devices.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/products/security/identity-services-engine/index.html\">https://www.cisco.com/c/en/us/products/security/identity-services-engine/index.html</a>"
             ],
             "guid": "M}s~.KC|7p",
             "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
             "tags": [
                 "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Firepower?",
+                "There are 3 products under the Firepower group;<br><br>1.) Cisco FTD (Firepower Threat Defense): Supports REST API with configuration/management/operations. Also includes a REST explorer!<br><br>2.) Cisco FMC (Firepower Management Center): Supports REST API with event data and host information<br><br>3.) Cisco FXOS Firepower Chassis Manager: Supports REST API with configuration and monitoring for platform and chassis services<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/secure-firewall/\">https://developer.cisco.com/secure-firewall/</a>"
+            ],
+            "guid": "ncIUjzkq#5",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Umbrella?",
+                "Cisco Umbrella supports REST API, it offers;<br>1.) Management and provisioning, allow or block domains programmatically.<br>2.) Reporting and Enrichment, leverage the Reporting API to empower your threat hunters.<br>3.) Cloud Access Security Broker, gain insight into SaaS (software as a service) usage along with Cisco Cloudlock's additional features.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/umbrella/\">https://developer.cisco.com/umbrella/</a>"
+            ],
+            "guid": "JrO~uN|b(l",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco ISE?",
+                "Cisco Identity Service Engine offers REST APIs for Montioring and External RESTful Services (called ERS).<br><br>The Monitoring API supports;<br>1.) Session Management: E.G. Version, ActiveCount (sessions), Stale Sessions<br>2.) Troubleshooting: E.G. FailureReasons, AuthStatus, AcctStatus<br>3.) Change of Authorization (CoA): E.G. Reauth, Disconnect<br><br>The ERS API supports a plethora of CRUD calls.<br><br>Monitoring src:&nbsp;<a href=\"https://developer.cisco.com/docs/identity-services-engine/3.0/#!introduction-to-monitoring-rest-apis\">https://developer.cisco.com/docs/identity-services-engine/3.0/#!introduction-to-monitoring-rest-apis</a><br>ERS src:&nbsp;<a href=\"https://developer.cisco.com/docs/identity-services-engine/3.0/#!setting-up\">https://developer.cisco.com/docs/identity-services-engine/3.0/#!setting-up</a>"
+            ],
+            "guid": "ulNU3wqUD:",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco AMP?",
+                "Cisco AMP (Advanced Malware Protection) offers REST API.<br><br>There are a multitude of uses, from blocking, detecting, identify, respond, attribution, sample analysis, threat hunting, etc.<br><br><br>src:&nbsp;<a href=\"https://api-docs.amp.cisco.com\">https://api-docs.amp.cisco.com</a>"
+            ],
+            "guid": "uCh}Jv]9I|",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Threat Grid?",
+                "Cisco Threat Grid offers a REST API.<br><br>There are three core tasks that can be accomplished;<br>1.) Sample Analysis: submit files, parse results, take action.<br>2.) Context and Enrichment: Associate indicators with malware, link payloads, correlate host and network indicators.<br>3.) Threat Hunting: Find naming patterns in files or domains, map infrastructure, collect command line arguments used by malware.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/threat-grid/\">https://developer.cisco.com/threat-grid/</a>"
+            ],
+            "guid": "eKp+ge:AxB",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco Meraki, what are it's capabilities?",
+                "Cisco Meraki is a cloud-managed IT product suite that includes wireless, switching, security, EMM (Enterprise Mobility Managment), and security cameras. All managed via a ubiquitous SaaS portal.<br><br>There are 5 core capabilities:<br>1.) Simplified infrastructure management through central SaaS GUI.<br>2.) Seamless over-the-web firmware and security updates.<br>3.) Zero touch provisioning and automated workflows and API integrations.<br>4.) Built-in remote troubleshooting tools<br>5.) Application visibility and location analytics.<br><br>src:&nbsp;<a href=\"https://meraki.cisco.com/products/\">https://meraki.cisco.com/products/</a>"
+            ],
+            "guid": "yVxSD7`D>P",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Platforms: What is Cisco SD-WAN, what are it's capabilties?",
+                "Cisco Software Defined Wide Area Network (SD-WAN) is a software defined platform for managing WAN connectivity.<br><br>There are 4 core capabilities:<br>1.) Intelligently uses MPLS, 4/5G LTE, and other connection types.<br>2.) Improved application performance with increased agility.<br>3.) Optimized user experience and efficiency for SaaS (Software as a Service) and public-cloud applications.<br>4.) Simplified operations with automation and cloud-based management.<br><br>src:&nbsp;<a href=\"https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/what-is-sd-wan.html\">https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/what-is-sd-wan.html</a>"
+            ],
+            "guid": "r6CSCMc~/u",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "Platforms"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco Meraki?",
+                "Cisco Meraki offers an OpenAPI compliant REST API and a Python Library (the SDK is depreciated)<br><br>OpenAPI compliant REST API offers:<br>1.) Add new organizations, admins, networks, devices, VLANs, and more.<br>2.) Configure thousands of networks in minutes.<br>3.) On/off-board employees telework setups automatically<br>4.) Build your own dashboard for store managers, field techs, or unique use cases.<br><br>Python library offers all the above with built in error handling, logging, retries, and more.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/meraki/api/#!introduction\">https://developer.cisco.com/meraki/api/#!introduction</a>"
+            ],
+            "guid": "mV_]h6`s^(",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "API: What APIs are available with Cisco SD-WAN?",
+                "Cisco SD-WAN offers a REST API and a Python SDK.<br><br>With the REST API, you can monitor device status, configure devices, query and aggregate device statistics.<br><br>With the Python SDK, you can integrate with other platforms, perform basic management of policy or device/feature templates, backup/restore the system, and support CI/CD.<br><br>src:&nbsp;<a href=\"https://developer.cisco.com/docs/sdwan/\">https://developer.cisco.com/docs/sdwan/</a>"
+            ],
+            "guid": "C,bw*3=9A/",
+            "note_model_uuid": "bdd89a3e-d29e-11eb-a216-acde48001122",
+            "tags": [
+                "API"
             ]
         }
     ]
